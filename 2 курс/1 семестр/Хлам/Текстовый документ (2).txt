@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <cmath>
+
+
+double alg(int m, double x, double eps)
+{
+	double y_cr = 0.1;
+	double y_nxt = y_cr + (1 / m) * ((x / (pow(y_cr, (m - 1))) - y_cr));
+
+	while (abs(y_nxt - y_cr) > eps)
+	{
+		y_cr = y_nxt;
+		y_nxt = y_cr + (1 / m) * ((x / (pow(y_cr, (m - 1))) - y_cr));
+	}
+
+	return y_cr;
+}
+
+
+int main()
+{
+	system("chcp 1251");
+	system("cls");
+	
+	double eps, x; int m;
+	printf("x = ");
+	scanf_s("%lf", &x);
+
+
+	printf("m = ");
+	scanf_s("%d", &m);
+
+
+	printf("eps = ");
+	scanf_s("%lf", &eps);
+
+	double huy = pow(x, 1 / m);
+	printf("Результат1 = %f\n", alg(m, x, eps));
+	printf("Резульат2 = %f", huy);
+
+}

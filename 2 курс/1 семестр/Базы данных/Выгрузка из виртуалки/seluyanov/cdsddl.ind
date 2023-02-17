@@ -1,0 +1,76 @@
+-- E:\seluyanov\cdsddl.ind
+--
+-- Generated for Oracle 10g on Thu Dec 15  01:45:13 2022 by Server Generator 10.1.2.6.18
+  
+
+PROMPT Creating Index 'бгп_оср_FK_I'
+CREATE INDEX бгп_оср_FK_I ON бнгбпюр
+ (оср_оср_ID)
+/
+
+PROMPT Creating Index 'бгп_йк_FK_I'
+CREATE INDEX бгп_йк_FK_I ON бнгбпюр
+ (йк_йк_ID)
+/
+
+PROMPT Creating Index 'бгп_яр_FK_I'
+CREATE INDEX бгп_яр_FK_I ON бнгбпюр
+ (яр_яр_ID)
+/
+
+PROMPT Creating Index 'рсп_охр_FK_I'
+CREATE INDEX рсп_охр_FK_I ON рсп
+ (охр_охр_ID)
+/
+
+PROMPT Creating Index 'рсп_бр_FK_I'
+CREATE INDEX рсп_бр_FK_I ON рсп
+ (бр_бр_ID)
+/
+
+PROMPT Creating Index 'рсп_ярп_FK_I'
+CREATE INDEX рсп_ярп_FK_I ON рсп
+ (ярп_ярп_ID)
+/
+
+PROMPT Creating Index 'рсп_нрк_FK_I'
+CREATE INDEX рсп_нрк_FK_I ON рсп
+ (нрк_нрк_ID)
+/
+
+PROMPT Creating Index 'опд_яр_FK_I'
+CREATE INDEX опд_яр_FK_I ON опндюфю
+ (яр_яр_ID)
+/
+
+PROMPT Creating Index 'опд_йк_FK_I'
+CREATE INDEX опд_йк_FK_I ON опндюфю
+ (йк_йк_ID)
+/
+
+PROMPT Creating Index 'опд_оср_FK_I'
+CREATE INDEX опд_оср_FK_I ON опндюфю
+ (оср_оср_ID)
+/
+
+PROMPT Creating Index 'нрк_охр_FK_I'
+CREATE INDEX нрк_охр_FK_I ON нрекэ
+ (охр_охр_ID)
+/
+
+PROMPT Creating Index 'нрк_ярп_FK_I'
+CREATE INDEX нрк_ярп_FK_I ON нрекэ
+ (ярп_ярп_ID)
+/
+
+PROMPT Creating Index 'оср_рсп_оср_FK_I'
+CREATE INDEX оср_рсп_оср_FK_I ON осребйю_рсп
+ (оср_оср_ID)
+/
+
+PROMPT Creating Index 'оср_рсп_рсп_FK_I'
+CREATE INDEX оср_рсп_рсп_FK_I ON осребйю_рсп
+ (рсп_рсп_ID)
+/
+
+

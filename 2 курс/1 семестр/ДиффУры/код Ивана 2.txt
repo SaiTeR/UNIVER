@@ -1,0 +1,33 @@
+t0 = 0; tfin = 7; n = 100; dt = (tfin - t0)/n;					
+f1 = @(t, lam1, lam2) exp(lam1*t)+((-9-sqrt(5))/lam2)*exp(lam2*t); 	!!!!!!
+f2 = @(t, lam1, lam2) 2*exp(lam1*t)+((1-2*sqrt(5))/lam2)*exp(lam2*t);	!!!!!!
+t = t0:dt:tfin;
+lam1 = 3+sqrt(5); lam2 = 3-sqrt(5);							!!!!!!
+y1=f1(t,lam1, lam2);
+y2=f2(t,lam1, lam2);
+
+figure(1),
+plot(t,y1,t,y2), grid on,
+xlabel('t'), ylabel('y'), legend('y1','y2'),
+title('Интегральные кривые'),
+
+figure(2),
+plot(y1, y2), grid on,
+xlabel('y1'), ylabel('y2'),
+title('Фазовая траектория'),
+
+t0 = 0; tfin = 7; y0 = [1; 2];
+A = [2, -4; -1, 4];									!!!!!!
+f = @(t,y) A*y;
+opt = struct('AbsTol',1e-8, 'RelTol',1e-8);
+[t, y] = ode45(f, [t0, tfin], y0, opt);
+
+figure(3),
+plot(t, y(:,1), t, y(:,2)), grid on,
+xlabel('t'), ylabel('y'), legend('y1','y2'),
+title('Интегральные кривые'),
+
+figure(4),
+plot(y(:,1), y(:,2)), grid on,
+xlabel('y1'), ylabel('y2'),
+title('Фазовая траектория'),

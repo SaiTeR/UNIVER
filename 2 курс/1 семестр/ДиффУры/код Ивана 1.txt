@@ -1,0 +1,22 @@
+f=@(x,y)(1./y+y./(x+1)); 	!!!!!!!
+x0=0; y0=0.1; xfin=2; 		!!!!!!!
+tol=odeset('AbsTol',10^-8,'RelTol',10^-8);
+[x,y]=ode45(f,[x0,xfin],y0,tol);
+figure(1),
+plot(x,y,'k'),
+grid on,
+xlabel('x'), ylabel('y'),
+hold on,
+xa=x(round(length(x)/2));
+ya=sqrt((y0^2+2*(x0+1))/(x0+1)^2*(xa+1)^2-2*(xa+1)); !!!!!!!
+plot(xa,ya,'k*'),
+legend('y(x)','ya(xa)'),
+title('Интегральная кривая'),
+z=f(x',y);
+z0=f(x0,y0);
+figure(4),
+plot(y,z,'k',y0,z0,'k*'),
+grid on,
+xlabel('y'), ylabel('z=dy/dx=f'),
+legend('z(y)','z0(y0)'),
+title('Фазовая траектория')

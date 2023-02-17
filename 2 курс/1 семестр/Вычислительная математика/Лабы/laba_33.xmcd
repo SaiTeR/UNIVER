@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest eba9b07aeab53cbbbbbf6573f615dc7f?>
+<worksheet version="2.0.2" xmlns="http://schemas.mathsoft.com/worksheet20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet20" xmlns:ml="http://schemas.mathsoft.com/math20" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 13.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>tema2000art@gmail.com</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>administrator</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>19</revision>
+			<documentID>73dcd37a-968e-4c06-bb67-66e5bc1a6159</documentID>
+			<versionID>e24a1c05-ed42-4f4d-95ee-0e92cfe88361</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results>
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" exponential-threshold="3" imaginary-value="i" zero-threshold="15"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="EN" UI="EN"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor protection-level="none" view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="in"/>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="833" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="653" left="0" top="12" width="6008.25" align-x="0" align-y="12" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="200.25">
+			<area is-collapsed="true" name="task 1.1" show-name="true" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="410" bottom-lock-id="412">
+				<region region-id="404" left="78" top="15" width="5.25" height="12.75" align-x="79.5" align-y="24" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:real xmlns:ml="http://schemas.mathsoft.com/math20">1</ml:real>
+					</math>
+				</region>
+				<region region-id="405" left="54" top="46.5" width="67.5" height="45.75" align-x="68.25" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091196" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091276" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">d033c05ef5b6ca731bceb133ec7c18bf</contentHash>
+							<ml:define warning="WarnRedefinedBIUnit">
+								<ml:id xml:space="preserve">A</ml:id>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>3</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="406" left="126" top="46.5" width="60.75" height="45.75" align-x="138.75" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091236" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">7ed0a8f8732f25a05cc36b72a680ab00</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">B</ml:id>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>1</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>1</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="407" left="198" top="46.5" width="66" height="45.75" align-x="210.75" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091876" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091396" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">f24db4a23e076c3423f5d3045010efd7</contentHash>
+							<ml:define warning="WarnRedefinedBIUnit">
+								<ml:id xml:space="preserve">C</ml:id>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>-1</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>5</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>7</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>1</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="408" left="54" top="105" width="93.75" height="18.75" align-x="67.5" align-y="120" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092156" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091596" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">2de63b61d439bd3348f332795be62f19</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">D</ml:id>
+								<ml:apply>
+									<ml:plus/>
+									<ml:id xml:space="preserve">A</ml:id>
+									<ml:apply>
+										<ml:mult style="default"/>
+										<ml:apply>
+											<ml:pow/>
+											<ml:parens>
+												<ml:apply>
+													<ml:plus/>
+													<ml:id xml:space="preserve">B</ml:id>
+													<ml:id xml:space="preserve">C</ml:id>
+												</ml:apply>
+											</ml:parens>
+											<ml:real>-1</ml:real>
+										</ml:apply>
+										<ml:id xml:space="preserve">C</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="409" left="54" top="130.5" width="123" height="45.75" align-x="66" align-y="156" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091076" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091916" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">da6c38fd5ffc19bbd59a38b7f0ade4d4</contentHash>
+								<ml:id xml:space="preserve">D</ml:id>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="3">
+									<ml:real>2.4482758620689657</ml:real>
+									<ml:real>1.6896551724137932</ml:real>
+									<ml:real>3.9655172413793105</ml:real>
+									<ml:real>0.86206896551724133</ml:real>
+									<ml:real>-0.82758620689655182</ml:real>
+									<ml:real>0.74137931034482751</ml:real>
+									<ml:real>-0.17241379310344829</ml:real>
+									<ml:real>2.96551724137931</ml:real>
+									<ml:real>4.0517241379310347</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="654" left="0" top="180" width="6008.25" align-x="0" align-y="180" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="1346.25">
+			<area is-collapsed="true" name="task 1.2" show-name="true" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="555" bottom-lock-id="561">
+				<region region-id="584" left="30" top="33" width="27.75" height="12.75" align-x="45" align-y="42" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091476" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">af839e6aa9944c997d199f3422826d10</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">x1</ml:id>
+								<ml:real>0</ml:real>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="585" left="78" top="33" width="27.75" height="12.75" align-x="93" align-y="42" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091436" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091956" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">741a4b6bc432ca5d6f51fddbbb6a9b7b</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">x2</ml:id>
+								<ml:real>0</ml:real>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="586" left="132" top="33" width="27.75" height="12.75" align-x="147" align-y="42" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091476" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">f7ece4dd1a828277456ada9889134206</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">x3</ml:id>
+								<ml:real>0</ml:real>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="587" left="30" top="51" width="24" height="12.75" align-x="41.25" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091436" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091956" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">21546c5319a511f4b5452a7b23aab828</contentHash>
+							<ml:id xml:space="preserve">Given</ml:id>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="588" left="54" top="69" width="75" height="12.75" align-x="117" align-y="78" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091476" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">f4ebf74b9573555e6be9b827579491a1</contentHash>
+							<ml:apply>
+								<ml:equal/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:mult style="auto-select"/>
+											<ml:real>2</ml:real>
+											<ml:id xml:space="preserve">x1</ml:id>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult style="auto-select"/>
+											<ml:real>2</ml:real>
+											<ml:id xml:space="preserve">x2</ml:id>
+										</ml:apply>
+									</ml:apply>
+									<ml:id xml:space="preserve">x3</ml:id>
+								</ml:apply>
+								<ml:real>4</ml:real>
+							</ml:apply>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="589" left="54" top="87" width="80.25" height="12.75" align-x="117.75" align-y="96" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091956" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092196" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">19648513cd5d638b53ca2e0a40fc114f</contentHash>
+							<ml:apply>
+								<ml:equal/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:neg/>
+											<ml:id xml:space="preserve">x1</ml:id>
+										</ml:apply>
+										<ml:id xml:space="preserve">x2</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult style="auto-select"/>
+										<ml:real>7</ml:real>
+										<ml:id xml:space="preserve">x3</ml:id>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>16</ml:real>
+							</ml:apply>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="590" left="60" top="105" width="80.25" height="12.75" align-x="123" align-y="114" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091436" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">48b7a20031ec39008bd8bad8d450cb9a</contentHash>
+							<ml:apply>
+								<ml:equal/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:minus/>
+										<ml:id xml:space="preserve">x1</ml:id>
+										<ml:apply>
+											<ml:mult style="auto-select"/>
+											<ml:real>4</ml:real>
+											<ml:id xml:space="preserve">x2</ml:id>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult style="auto-select"/>
+										<ml:real>2</ml:real>
+										<ml:id xml:space="preserve">x3</ml:id>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>-3</ml:real>
+							</ml:apply>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="591" left="36" top="129" width="106.5" height="12.75" align-x="74.25" align-y="138" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091436" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">4a10c8bf3928bedf1ebaaf98130bf1c3</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">Solves1</ml:id>
+								<ml:apply>
+									<ml:Find auto-method="true" method="linear" derivative-estimation="central" variable-estimation="tangent" linear-check="false" multistart="false" evolutionary="false"/>
+									<ml:sequence>
+										<ml:id xml:space="preserve">x1</ml:id>
+										<ml:id xml:space="preserve">x2</ml:id>
+										<ml:id xml:space="preserve">x3</ml:id>
+									</ml:sequence>
+								</ml:apply>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="592" left="42" top="148.5" width="83.25" height="45.75" align-x="78.75" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091676" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">648f8a4e3a2a6173cd7839253fe25cd9</contentHash>
+								<ml:id xml:space="preserve">Solves1</ml:id>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="1">
+									<ml:real>3.6666666666666661</ml:real>
+									<ml:real>3.307692307692307</ml:real>
+									<ml:real>3.2820512820512819</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="593" left="36" top="286.5" width="72.75" height="45.75" align-x="50.25" align-y="312" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091796" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">9d5136b4e0a94fbc8adf2f0202d1b63a</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">A</ml:id>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>-4</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>7</ml:real>
+									<ml:real>2</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="594" left="138" top="286.5" width="43.5" height="45.75" align-x="150.75" align-y="312" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091596" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">04d87dc290175abc224161a8deb80b4d</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">b</ml:id>
+								<ml:matrix rows="3" cols="1">
+									<ml:real>4</ml:real>
+									<ml:real>16</ml:real>
+									<ml:real>-3</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="649" left="312" top="308.25" width="66" height="24" align-x="329.25" align-y="318" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">obratnaya matrix</p>
+					</text>
+				</region>
+				<region region-id="645" left="282" top="339" width="48.75" height="18.75" align-x="294" align-y="354" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">q</ml:id>
+							<ml:apply>
+								<ml:mult style="default"/>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">A</ml:id>
+									<ml:real>-1</ml:real>
+								</ml:apply>
+								<ml:id xml:space="preserve">b</ml:id>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="595" left="36" top="351" width="96" height="12.75" align-x="74.25" align-y="360" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092196" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091196" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">07aef85be01b706c3db3377e6737ec70</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">Solves2</ml:id>
+								<ml:apply>
+									<ml:id xml:space="preserve">lsolve</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">A</ml:id>
+										<ml:id xml:space="preserve">b</ml:id>
+									</ml:sequence>
+								</ml:apply>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="646" left="360" top="346.5" width="57" height="45.75" align-x="370.5" align-y="372" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">q</ml:id>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="1">
+									<ml:real>3.6666666666666665</ml:real>
+									<ml:real>3.3076923076923075</ml:real>
+									<ml:real>3.2820512820512819</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="596" left="36" top="364.5" width="83.25" height="45.75" align-x="72.75" align-y="390" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091236" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">102de0d54772cce52775334ddda6eb5f</contentHash>
+								<ml:id xml:space="preserve">Solves2</ml:id>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="1">
+									<ml:real>3.6666666666666665</ml:real>
+									<ml:real>3.3076923076923075</ml:real>
+									<ml:real>3.2820512820512819</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="638" left="18" top="441" width="34.5" height="12.75" align-x="34.5" align-y="450" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:id xml:space="preserve" xmlns:ml="http://schemas.mathsoft.com/math20">krammer</ml:id>
+					</math>
+				</region>
+				<region region-id="605" left="36" top="484.5" width="87" height="45.75" align-x="100.5" align-y="510" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:determinant/>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>-4</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>7</ml:real>
+									<ml:real>2</ml:real>
+								</ml:matrix>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>39</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="621" left="36" top="556.5" width="91.5" height="45.75" align-x="100.5" align-y="582" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:determinant/>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>4</ml:real>
+									<ml:real>16</ml:real>
+									<ml:real>-3</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>-4</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>7</ml:real>
+									<ml:real>2</ml:real>
+								</ml:matrix>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>142.99999999999997</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="630" left="36" top="616.5" width="91.5" height="45.75" align-x="100.5" align-y="642" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:determinant/>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>16</ml:real>
+									<ml:real>-3</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>7</ml:real>
+									<ml:real>2</ml:real>
+								</ml:matrix>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>129</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="628" left="36" top="688.5" width="96.75" height="45.75" align-x="105.75" align-y="714" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:determinant/>
+								<ml:matrix rows="3" cols="3">
+									<ml:real>2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>-4</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>16</ml:real>
+									<ml:real>-3</ml:real>
+								</ml:matrix>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>128</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="634" left="36" top="758.25" width="55.5" height="27.75" align-x="57.75" align-y="774" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:div/>
+								<ml:real>143</ml:real>
+								<ml:real>39</ml:real>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>3.6666666666666665</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="635" left="42" top="788.25" width="55.5" height="27.75" align-x="63.75" align-y="804" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:div/>
+								<ml:real>129</ml:real>
+								<ml:real>39</ml:real>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>3.3076923076923075</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="636" left="36" top="818.25" width="55.5" height="27.75" align-x="57.75" align-y="834" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:div/>
+								<ml:real>128</ml:real>
+								<ml:real>39</ml:real>
+							</ml:apply>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>3.2820512820512819</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="557" left="0" top="396" width="6008.25" align-x="0" align-y="396" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="506.25">
+			<area is-collapsed="true" name="task 1.3" show-name="true" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="455" bottom-lock-id="493">
+				<region region-id="432" left="60" top="21" width="7.5" height="10.5" align-x="63" align-y="30" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+							<f family="Arial" charset="0" size="10">3 </f>
+						</p>
+					</text>
+				</region>
+				<region region-id="433" left="42" top="76.5" width="38.25" height="45.75" align-x="54.75" align-y="102" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091196" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091716" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">0edbc7226976d70cee9f2ed1e55ccab5</contentHash>
+							<ml:define warning="WarnRedefinedBIUnit">
+								<ml:id xml:space="preserve">V</ml:id>
+								<ml:matrix rows="3" cols="1">
+									<ml:real>0</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>1</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="434" left="102" top="93" width="61.5" height="12.75" align-x="118.5" align-y="102" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091636" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091236" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">df49cc61e961a1097bfbfc5b97e40dc4</contentHash>
+							<ml:define warning="WarnRedefinedBIUnit">
+								<ml:id xml:space="preserve">W</ml:id>
+								<ml:matrix rows="1" cols="3">
+									<ml:real>3</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>1</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="435" left="180" top="60" width="51" height="78.75" align-x="194.25" align-y="102" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091956" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091916" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">7e8e09a63c1edd198788b87e7c386073</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">A</ml:id>
+								<ml:matrix rows="5" cols="2">
+									<ml:real>5</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>6</ml:real>
+									<ml:real>5</ml:real>
+									<ml:real>8</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>8</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="436" left="252" top="76.5" width="110.25" height="45.75" align-x="264.75" align-y="102" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</originRef>
+							<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091436" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+								<hash/>
+							</parentRef>
+							<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+							<contentHash xmlns="http://schemas.mathsoft.com/provenance10">705f56d0d714d2d8e3568c851740e904</contentHash>
+							<ml:define>
+								<ml:id xml:space="preserve">B</ml:id>
+								<ml:matrix rows="3" cols="5">
+									<ml:real>4</ml:real>
+									<ml:real>2.6</ml:real>
+									<ml:real>15</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>1.9</ml:real>
+									<ml:real>6</ml:real>
+									<ml:real>9</ml:real>
+									<ml:real>0.4</ml:real>
+									<ml:real>2.6</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>8</ml:real>
+									<ml:real>5</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>3.7</ml:real>
+									<ml:real>0</ml:real>
+								</ml:matrix>
+							</ml:define>
+						</ml:provenance>
+					</math>
+				</region>
+				<region region-id="437" left="42" top="111" width="15.75" height="10.5" align-x="44.25" align-y="120" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">3x1</p>
+					</text>
+				</region>
+				<region region-id="438" left="102" top="111" width="15.75" height="10.5" align-x="104.25" align-y="120" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">1x3</p>
+					</text>
+				</region>
+				<region region-id="439" left="180" top="111" width="15.75" height="10.5" align-x="182.25" align-y="120" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">5x2</p>
+					</text>
+				</region>
+				<region region-id="440" left="252" top="111" width="15.75" height="10.5" align-x="254.25" align-y="120" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">3x5</p>
+					</text>
+				</region>
+				<region region-id="441" left="48" top="183" width="8.25" height="10.5" align-x="55.5" align-y="192" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">V:</p>
+					</text>
+				</region>
+				<region region-id="442" left="60" top="190.5" width="77.25" height="45.75" align-x="84" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">99e9ee5c1d5bea0214d3c71ec8019016</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">V</ml:id>
+									<ml:id xml:space="preserve">W</ml:id>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="3">
+									<ml:real>0</ml:real>
+									<ml:real>6</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>1</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="443" left="156" top="201.75" width="134.25" height="18" align-x="181.5" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091596" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">ff4a0ef48ef872ebd9609eb58b8b6c48</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">V</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">B</ml:id>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="1" cols="5">
+									<ml:real>20.2</ml:real>
+									<ml:real>9.8</ml:real>
+									<ml:real>3.4000000000000004</ml:real>
+									<ml:real>21</ml:real>
+									<ml:real>7.4</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="444" left="312" top="201.75" width="52.5" height="18" align-x="346.5" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092156" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091996" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">0fe1535e780ecddc3dcadba768d6310f</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">V</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">W</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>5</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="445" left="48" top="243" width="11.25" height="10.5" align-x="60.75" align-y="252" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">W:</p>
+					</text>
+				</region>
+				<region region-id="446" left="66" top="267" width="146.25" height="12.75" align-x="90" align-y="276" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">e30c117609ca18720f41bf2b2e413330</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">W</ml:id>
+									<ml:id xml:space="preserve">B</ml:id>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="1" cols="5">
+									<ml:real>32.2</ml:real>
+									<ml:real>15.8</ml:real>
+									<ml:real>30.400000000000002</ml:real>
+									<ml:real>24</ml:real>
+									<ml:real>16.4</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="447" left="228" top="250.5" width="87.75" height="45.75" align-x="262.5" align-y="276" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">b598ef5185da5eec0d12ae9ffa5e33b2</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">W</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">V</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="3">
+									<ml:real>0</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>6</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>1</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="448" left="66" top="285" width="42" height="12.75" align-x="90" align-y="294" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">93216611356f11d2a3822fbf148c035f</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">W</ml:id>
+									<ml:id xml:space="preserve">V</ml:id>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:real>5</ml:real>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="449" left="48" top="315" width="9" height="10.5" align-x="51" align-y="324" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">A:</p>
+					</text>
+				</region>
+				<region region-id="450" left="66" top="330.75" width="110.25" height="29.25" align-x="98.25" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091636" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517092116" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">c7b45b061021cd321810efa2eb144653</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">A</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">B</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="2" cols="3">
+									<ml:real>47</ml:real>
+									<ml:real>65</ml:real>
+									<ml:real>85.2</ml:real>
+									<ml:real>66</ml:real>
+									<ml:real>123</ml:real>
+									<ml:real>149</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="451" left="48" top="387" width="9" height="10.5" align-x="51" align-y="396" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="true">
+						<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">B:</p>
+					</text>
+				</region>
+				<region region-id="452" left="66" top="406.5" width="84" height="45.75" align-x="87.75" align-y="432" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091556" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">a287bf47b1236a374ffac73d0835557a</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">B</ml:id>
+									<ml:id xml:space="preserve">A</ml:id>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="3" cols="2">
+									<ml:real>47</ml:real>
+									<ml:real>85.2</ml:real>
+									<ml:real>123</ml:real>
+									<ml:real>65</ml:real>
+									<ml:real>66</ml:real>
+									<ml:real>149</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="453" left="174" top="390" width="76.5" height="78.75" align-x="208.5" align-y="432" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091596" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">6ffbb6c5c3d6fd373c5bb1c79a7b4485</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">B</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">W</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="5" cols="1">
+									<ml:real>32.2</ml:real>
+									<ml:real>15.8</ml:real>
+									<ml:real>30.400000000000002</ml:real>
+									<ml:real>24</ml:real>
+									<ml:real>16.4</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="454" left="270" top="390" width="67.5" height="78.75" align-x="295.5" align-y="432" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:provenance expr-id="1">
+								<originRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091596" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</originRef>
+								<parentRef doc-id="9216bab4-7ace-45e6-b98c-8b8e8d27ad01" version-id="68f88a15-415e-4a7f-bdc0-56f3d31b734d" branch-id="00000000-0000-0000-0000-000000000000" revision-num="517091036" is-modified="true" region-id="0" href="C:\Users\tema2\Downloads\Lab_3.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+									<hash/>
+								</parentRef>
+								<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+								<contentHash xmlns="http://schemas.mathsoft.com/provenance10">3a556d96619818b196d7ed4df688017b</contentHash>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:apply>
+										<ml:transpose/>
+										<ml:id xml:space="preserve">B</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">V</ml:id>
+								</ml:apply>
+							</ml:provenance>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="5" cols="1">
+									<ml:real>20.2</ml:real>
+									<ml:real>9.8</ml:real>
+									<ml:real>3.4000000000000004</ml:real>
+									<ml:real>21</ml:real>
+									<ml:real>7.4</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="833" left="0" top="504" width="6008.25" align-x="0" align-y="504" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="577.5">
+			<area is-collapsed="true" name="task 2.1" show-name="true" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="523" bottom-lock-id="762">
+				<region region-id="793" left="18" top="27.75" width="63.75" height="33.75" align-x="39.75" align-y="49.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:mult style="default"/>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">e</ml:id>
+									<ml:apply>
+										<ml:neg/>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">x</ml:id>
+											<ml:real>2</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">x</ml:id>
+										<ml:real>3</ml:real>
+									</ml:apply>
+									<ml:real>3</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="794" left="18" top="94.5" width="48" height="12.75" align-x="48" align-y="103.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">begin</ml:id>
+							<ml:real>-3</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="795" left="126" top="94.5" width="35.25" height="12.75" align-x="148.5" align-y="103.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">end</ml:id>
+							<ml:real>3</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="796" left="216" top="94.5" width="43.5" height="12.75" align-x="240" align-y="103.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">step</ml:id>
+							<ml:real>0.5</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="797" left="318" top="111.75" width="111.75" height="27.75" align-x="346.5" align-y="127.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">step1</ml:id>
+							<ml:range>
+								<ml:real>0</ml:real>
+								<ml:apply>
+									<ml:absval/>
+									<ml:apply>
+										<ml:div/>
+										<ml:apply>
+											<ml:minus/>
+											<ml:id xml:space="preserve">end</ml:id>
+											<ml:id xml:space="preserve">begin</ml:id>
+										</ml:apply>
+										<ml:id xml:space="preserve">step</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:range>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="798" left="192" top="148.5" width="126.75" height="18" align-x="233.25" align-y="157.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedBIUnit" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">step1</ml:id>
+									<ml:real>0</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:plus/>
+								<ml:id xml:space="preserve">begin</ml:id>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">step1</ml:id>
+									<ml:id xml:space="preserve">step</ml:id>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="799" left="192" top="184.5" width="95.25" height="18" align-x="233.25" align-y="193.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">step1</ml:id>
+									<ml:real>1</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">S</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">step1</ml:id>
+										<ml:real>0</ml:real>
+									</ml:sequence>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="808" left="402" top="331.5" width="312" height="234.75" align-x="402" align-y="331.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="5"/>
+				</region>
+				<region region-id="800" left="228" top="248.25" width="153.75" height="180" align-x="238.5" align-y="337.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">S</ml:id>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="13" cols="2">
+									<ml:real>-3</ml:real>
+									<ml:real>-2.5</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1.5</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>-0.5</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0.5</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>1.5</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>2.5</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>-0.0011106882367801162</ml:real>
+									<ml:real>-0.010054448626185989</ml:real>
+									<ml:real>-0.048841703703291148</ml:real>
+									<ml:real>-0.11857412763209739</ml:real>
+									<ml:real>-0.12262648039048077</ml:real>
+									<ml:real>-0.0324500326279752</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0.0324500326279752</ml:real>
+									<ml:real>0.12262648039048077</ml:real>
+									<ml:real>0.11857412763209739</ml:real>
+									<ml:real>0.048841703703291148</ml:real>
+									<ml:real>0.010054448626185989</ml:real>
+									<ml:real>0.0011106882367801162</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+						<resultFormat>
+							<table item-idref="6"/>
+						</resultFormat>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="7"/>
+		</region>
+		<region region-id="828" left="0" top="567" width="6008.25" align-x="0" align-y="567" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="824.25">
+			<area is-collapsed="true" name="task 2.2" show-name="true" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="529" bottom-lock-id="531">
+				<region region-id="809" left="24" top="35.25" width="62.25" height="18.75" align-x="50.25" align-y="50.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:function>
+								<ml:id xml:space="preserve">f1</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:id xml:space="preserve">sin</ml:id>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="816" left="18" top="77.25" width="48" height="12.75" align-x="48" align-y="86.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">begin</ml:id>
+							<ml:real>-5</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="817" left="126" top="77.25" width="35.25" height="12.75" align-x="148.5" align-y="86.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">end</ml:id>
+							<ml:real>5</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="818" left="216" top="77.25" width="43.5" height="12.75" align-x="240" align-y="86.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">step</ml:id>
+							<ml:real>0.2</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="819" left="318" top="94.5" width="111.75" height="27.75" align-x="346.5" align-y="110.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">step1</ml:id>
+							<ml:range>
+								<ml:real>0</ml:real>
+								<ml:apply>
+									<ml:absval/>
+									<ml:apply>
+										<ml:div/>
+										<ml:apply>
+											<ml:minus/>
+											<ml:id xml:space="preserve">end</ml:id>
+											<ml:id xml:space="preserve">begin</ml:id>
+										</ml:apply>
+										<ml:id xml:space="preserve">step</ml:id>
+									</ml:apply>
+								</ml:apply>
+							</ml:range>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="820" left="192" top="131.25" width="126.75" height="18" align-x="233.25" align-y="140.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">step1</ml:id>
+									<ml:real>0</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:plus/>
+								<ml:id xml:space="preserve">begin</ml:id>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">step1</ml:id>
+									<ml:id xml:space="preserve">step</ml:id>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="821" left="192" top="167.25" width="99.75" height="18" align-x="233.25" align-y="176.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">step1</ml:id>
+									<ml:real>1</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:id xml:space="preserve">f1</ml:id>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">S</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">step1</ml:id>
+										<ml:real>0</ml:real>
+									</ml:sequence>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="825" left="486" top="128.25" width="117.75" height="218.25" align-x="496.5" align-y="236.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">S</ml:id>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="51" cols="2">
+									<ml:real>-5</ml:real>
+									<ml:real>-4.8</ml:real>
+									<ml:real>-4.6</ml:real>
+									<ml:real>-4.4</ml:real>
+									<ml:real>-4.2</ml:real>
+									<ml:real>-4</ml:real>
+									<ml:real>-3.8</ml:real>
+									<ml:real>-3.5999999999999996</ml:real>
+									<ml:real>-3.4</ml:real>
+									<ml:real>-3.2</ml:real>
+									<ml:real>-3</ml:real>
+									<ml:real>-2.8</ml:real>
+									<ml:real>-2.5999999999999996</ml:real>
+									<ml:real>-2.4</ml:real>
+									<ml:real>-2.1999999999999997</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1.7999999999999998</ml:real>
+									<ml:real>-1.5999999999999996</ml:real>
+									<ml:real>-1.4</ml:real>
+									<ml:real>-1.1999999999999997</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>-0.79999999999999982</ml:real>
+									<ml:real>-0.59999999999999964</ml:real>
+									<ml:real>-0.39999999999999947</ml:real>
+									<ml:real>-0.19999999999999929</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0.20000000000000018</ml:real>
+									<ml:real>0.40000000000000036</ml:real>
+									<ml:real>0.60000000000000053</ml:real>
+									<ml:real>0.80000000000000071</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>1.2000000000000002</ml:real>
+									<ml:real>1.4000000000000004</ml:real>
+									<ml:real>1.6000000000000005</ml:real>
+									<ml:real>1.8000000000000007</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>2.2</ml:real>
+									<ml:real>2.4000000000000004</ml:real>
+									<ml:real>2.6000000000000005</ml:real>
+									<ml:real>2.8000000000000007</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>3.2000000000000011</ml:real>
+									<ml:real>3.4000000000000004</ml:real>
+									<ml:real>3.5999999999999996</ml:real>
+									<ml:real>3.8000000000000007</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>4.2000000000000011</ml:real>
+									<ml:real>4.4</ml:real>
+									<ml:real>4.6000000000000014</ml:real>
+									<ml:real>4.8000000000000007</ml:real>
+									<ml:real>5</ml:real>
+									<ml:real>-0.13235175009777303</ml:real>
+									<ml:real>-0.86685115582631178</ml:real>
+									<ml:real>0.7387060297037753</ml:real>
+									<ml:real>0.48856476577252106</ml:real>
+									<ml:real>-0.9354591409916635</ml:real>
+									<ml:real>-0.2879033166650653</ml:real>
+									<ml:real>0.95449543024092143</ml:real>
+									<ml:real>0.38354275541260668</ml:real>
+									<ml:real>-0.84489594377602706</ml:real>
+									<ml:real>-0.72787787034973783</ml:real>
+									<ml:real>0.41211848524175659</ml:real>
+									<ml:real>0.99990225854797521</ml:real>
+									<ml:real>0.45895148637768873</ml:real>
+									<ml:real>-0.49964188311690244</ml:real>
+									<ml:real>-0.99186875731091273</ml:real>
+									<ml:real>-0.7568024953079282</ml:real>
+									<ml:real>-0.0982485937451078</ml:real>
+									<ml:real>0.5493554364271277</ml:real>
+									<ml:real>0.92521152078816837</ml:real>
+									<ml:real>0.99145834819168632</ml:real>
+									<ml:real>0.8414709848078965</ml:real>
+									<ml:real>0.59719544136239178</ml:real>
+									<ml:real>0.35227423327508961</ml:real>
+									<ml:real>0.15931820661424556</ml:real>
+									<ml:real>0.039989334186633876</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>0.03998933418663423</ml:real>
+									<ml:real>0.15931820661424623</ml:real>
+									<ml:real>0.35227423327509061</ml:real>
+									<ml:real>0.597195441362393</ml:real>
+									<ml:real>0.8414709848078965</ml:real>
+									<ml:real>0.99145834819168654</ml:real>
+									<ml:real>0.92521152078816782</ml:real>
+									<ml:real>0.54935543642712514</ml:real>
+									<ml:real>-0.0982485937451109</ml:real>
+									<ml:real>-0.7568024953079282</ml:real>
+									<ml:real>-0.99186875731091251</ml:real>
+									<ml:real>-0.49964188311690094</ml:real>
+									<ml:real>0.45895148637769267</ml:real>
+									<ml:real>0.99990225854797521</ml:real>
+									<ml:real>0.41211848524175659</ml:real>
+									<ml:real>-0.7278778703497415</ml:real>
+									<ml:real>-0.84489594377602517</ml:real>
+									<ml:real>0.38354275541260668</ml:real>
+									<ml:real>0.95449543024091987</ml:real>
+									<ml:real>-0.2879033166650653</ml:real>
+									<ml:real>-0.935459140991661</ml:real>
+									<ml:real>0.48856476577252106</ml:real>
+									<ml:real>0.73870602970376331</ml:real>
+									<ml:real>-0.86685115582631533</ml:real>
+									<ml:real>-0.13235175009777303</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+						<resultFormat>
+							<table item-idref="8"/>
+						</resultFormat>
+					</math>
+				</region>
+				<region region-id="823" left="54" top="254.25" width="348" height="270.75" align-x="54" align-y="254.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="9"/>
+				</region>
+			</area>
+			<rendering item-idref="10"/>
+		</region>
+		<region region-id="832" left="0" top="675" width="6008.25" align-x="0" align-y="675" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="1730.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="655" bottom-lock-id="712">
+				<region region-id="661" left="36" top="58.5" width="57.75" height="33.75" align-x="57.75" align-y="74.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:div/>
+								<ml:real>1</ml:real>
+								<ml:apply>
+									<ml:plus/>
+									<ml:real>1</ml:real>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">x</ml:id>
+										<ml:real>2</ml:real>
+									</ml:apply>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="694" left="36" top="113.25" width="42.75" height="12.75" align-x="45" align-y="122.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:sequence>
+									<ml:real>0</ml:real>
+									<ml:real>1</ml:real>
+								</ml:sequence>
+								<ml:real>8</ml:real>
+							</ml:range>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="703" left="30" top="185.25" width="63" height="18" align-x="53.25" align-y="194.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">i</ml:id>
+									<ml:real>0</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:plus/>
+								<ml:real>-4</ml:real>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">i</ml:id>
+									<ml:real>1</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="830" left="192" top="203.25" width="319.5" height="257.25" align-x="192" align-y="203.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="11"/>
+				</region>
+				<region region-id="704" left="30" top="215.25" width="59.25" height="18" align-x="53.25" align-y="224.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">i</ml:id>
+									<ml:real>1</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:apply>
+									<ml:indexer/>
+									<ml:id xml:space="preserve">S</ml:id>
+									<ml:sequence>
+										<ml:id xml:space="preserve">i</ml:id>
+										<ml:real>0</ml:real>
+									</ml:sequence>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="669" left="30" top="377.25" width="69.75" height="144.75" align-x="42" align-y="452.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">S</ml:id>
+							<ml:matrix rows="9" cols="2">
+								<ml:real>-4</ml:real>
+								<ml:real>-3</ml:real>
+								<ml:real>-2</ml:real>
+								<ml:real>-1</ml:real>
+								<ml:real>0</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>2</ml:real>
+								<ml:real>3</ml:real>
+								<ml:real>4</ml:real>
+								<ml:real>0.059</ml:real>
+								<ml:real>0.1</ml:real>
+								<ml:real>0.2</ml:real>
+								<ml:real>0.5</ml:real>
+								<ml:real>1</ml:real>
+								<ml:real>0.5</ml:real>
+								<ml:real>0.2</ml:real>
+								<ml:real>0.1</ml:real>
+								<ml:real>0.059</ml:real>
+							</ml:matrix>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="674" left="24" top="570" width="38.25" height="18" align-x="37.5" align-y="584.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">X</ml:id>
+							<ml:apply>
+								<ml:matcol/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:real>0</ml:real>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="679" left="156" top="576" width="37.5" height="18" align-x="168.75" align-y="590.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">Y</ml:id>
+							<ml:apply>
+								<ml:matcol/>
+								<ml:id xml:space="preserve">S</ml:id>
+								<ml:real>1</ml:real>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="683" left="42" top="623.25" width="42.75" height="12.75" align-x="51" align-y="632.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">i</ml:id>
+							<ml:range>
+								<ml:sequence>
+									<ml:real>0</ml:real>
+									<ml:real>1</ml:real>
+								</ml:sequence>
+								<ml:real>8</ml:real>
+							</ml:range>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="682" left="24" top="669.75" width="212.25" height="56.25" align-x="69" align-y="692.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:function>
+								<ml:id xml:space="preserve">P</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:id xml:space="preserve">X</ml:id>
+									<ml:id xml:space="preserve">Y</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:summation/>
+								<ml:lambda>
+									<ml:boundVars>
+										<ml:id xml:space="preserve">i</ml:id>
+									</ml:boundVars>
+									<ml:parens>
+										<ml:apply>
+											<ml:mult style="default"/>
+											<ml:apply>
+												<ml:indexer/>
+												<ml:id xml:space="preserve">Y</ml:id>
+												<ml:id xml:space="preserve">i</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:product/>
+												<ml:lambda>
+													<ml:boundVars>
+														<ml:id xml:space="preserve">j</ml:id>
+													</ml:boundVars>
+													<ml:parens>
+														<ml:program>
+															<ml:ifThen>
+																<ml:apply>
+																	<ml:notEqual/>
+																	<ml:id xml:space="preserve">i</ml:id>
+																	<ml:id xml:space="preserve">j</ml:id>
+																</ml:apply>
+																<ml:apply>
+																	<ml:div/>
+																	<ml:apply>
+																		<ml:minus/>
+																		<ml:id xml:space="preserve">x</ml:id>
+																		<ml:apply>
+																			<ml:indexer/>
+																			<ml:id xml:space="preserve">X</ml:id>
+																			<ml:id xml:space="preserve">j</ml:id>
+																		</ml:apply>
+																	</ml:apply>
+																	<ml:apply>
+																		<ml:minus/>
+																		<ml:apply>
+																			<ml:indexer/>
+																			<ml:id xml:space="preserve">X</ml:id>
+																			<ml:id xml:space="preserve">i</ml:id>
+																		</ml:apply>
+																		<ml:apply>
+																			<ml:indexer/>
+																			<ml:id xml:space="preserve">X</ml:id>
+																			<ml:id xml:space="preserve">j</ml:id>
+																		</ml:apply>
+																	</ml:apply>
+																</ml:apply>
+															</ml:ifThen>
+															<ml:ifThen>
+																<ml:apply>
+																	<ml:equal/>
+																	<ml:id xml:space="preserve">i</ml:id>
+																	<ml:id xml:space="preserve">j</ml:id>
+																</ml:apply>
+																<ml:real>1</ml:real>
+															</ml:ifThen>
+														</ml:program>
+													</ml:parens>
+												</ml:lambda>
+												<ml:bounds>
+													<ml:real>0</ml:real>
+													<ml:real>8</ml:real>
+												</ml:bounds>
+											</ml:apply>
+										</ml:apply>
+									</ml:parens>
+								</ml:lambda>
+								<ml:bounds>
+									<ml:real>0</ml:real>
+									<ml:real>8</ml:real>
+								</ml:bounds>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="701" left="42" top="773.25" width="67.5" height="18" align-x="69.75" align-y="782.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S1</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">i</ml:id>
+									<ml:real>0</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:plus/>
+								<ml:real>-4</ml:real>
+								<ml:apply>
+									<ml:mult style="default"/>
+									<ml:id xml:space="preserve">i</ml:id>
+									<ml:real>1</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="702" left="42" top="803.25" width="87" height="18" align-x="69.75" align-y="812.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:apply>
+								<ml:indexer/>
+								<ml:id xml:space="preserve">S1</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">i</ml:id>
+									<ml:real>1</ml:real>
+								</ml:sequence>
+							</ml:apply>
+							<ml:apply>
+								<ml:id xml:space="preserve">P</ml:id>
+								<ml:sequence>
+									<ml:apply>
+										<ml:indexer/>
+										<ml:id xml:space="preserve">S</ml:id>
+										<ml:sequence>
+											<ml:id xml:space="preserve">i</ml:id>
+											<ml:real>0</ml:real>
+										</ml:sequence>
+									</ml:apply>
+									<ml:id xml:space="preserve">X</ml:id>
+									<ml:id xml:space="preserve">Y</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="691" left="330" top="872.25" width="169.5" height="131.25" align-x="330" align-y="872.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="12"/>
+				</region>
+				<region region-id="689" left="30" top="875.25" width="78" height="144.75" align-x="45" align-y="950.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">S1</ml:id>
+							<result xmlns="http://schemas.mathsoft.com/math20">
+								<ml:matrix rows="9" cols="2">
+									<ml:real>-4</ml:real>
+									<ml:real>-3</ml:real>
+									<ml:real>-2</ml:real>
+									<ml:real>-1</ml:real>
+									<ml:real>0</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+									<ml:real>3</ml:real>
+									<ml:real>4</ml:real>
+									<ml:real>0.059</ml:real>
+									<ml:real>0.1</ml:real>
+									<ml:real>0.2</ml:real>
+									<ml:real>0.5</ml:real>
+									<ml:real>1</ml:real>
+									<ml:real>0.5</ml:real>
+									<ml:real>0.2</ml:real>
+									<ml:real>0.1</ml:real>
+									<ml:real>0.059</ml:real>
+								</ml:matrix>
+							</result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="708" left="18" top="1097.25" width="70.5" height="12.75" align-x="29.25" align-y="1106.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedBIUnit" xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:id xml:space="preserve">s</ml:id>
+							<ml:apply>
+								<ml:id xml:space="preserve">lspline</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">X</ml:id>
+									<ml:id xml:space="preserve">Y</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="709" left="18" top="1133.25" width="94.5" height="12.75" align-x="39" align-y="1142.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define xmlns:ml="http://schemas.mathsoft.com/math20">
+							<ml:function>
+								<ml:id xml:space="preserve">I</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">z</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:id xml:space="preserve">interp</ml:id>
+								<ml:sequence>
+									<ml:id xml:space="preserve">s</ml:id>
+									<ml:id xml:space="preserve">X</ml:id>
+									<ml:id xml:space="preserve">Y</ml:id>
+									<ml:id xml:space="preserve">z</ml:id>
+								</ml:sequence>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="713" left="72" top="1172.25" width="161.25" height="131.25" align-x="72" align-y="1172.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="13"/>
+				</region>
+				<region region-id="715" left="90" top="1376.25" width="294" height="221.25" align-x="90" align-y="1376.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="14"/>
+				</region>
+			</area>
+			<rendering item-idref="15"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yNvQ6CQBCEdzlQwd/GGhMbj9InsCBWJj6CnvifEA1SWPrm5+yCvUf2GGa/
+GQZExBiHSVQb3OPjcnep3PO6Oz+q0tURyZljYrVzVzu1aIHplcX2cD8VdWPtmxcFM1ym7Z9K
+q2r5Stz79lprtVE2w2y4ZZvj8RBn/7u/8m5dueK0zANd2RZMeUJs2Ytitlj6lAO2BtGUDdvQ
+ixOCIQ8RgfmssOoII6muMhA9YQSOpUfiCRiN98FofABG40P9F8RIGYixMAJ/AQAA//8DAMuS
+Xhh8AQAA</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMISURBVHhe7d3teaowAIbhzJWBmMMR
+mIZlGCYlSDyBRg3V+qPnvq/rqXxJ3eANi9QbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAQBF6R9A/OpY+jynGMc3b6XNTGsKw/H2k5xkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACg1++OpZ8ePd90f29OYwzrbwt3h9B7ngEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADO+jaWfm8U/d71h359LL2Y0vB0CL3nGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAKBXcyy9NYx+fix9TmO8vitsw+fTsJ1vDdty+TzG27U4Lk/uxtLzyPm/d7QZSwcAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBPC3mgvFZGy1vXT9uNnh/c7lUj5vlaPt7diynv
+pz9mLB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+LbRG0euKfHy5XLpbHcfS1zH0
+6v3rvTmN8Xoeyyp6/dzQM2/+2lh66/dLkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ
+kiRJkiRJkiRJkiRJkiRJ/2NnhDxIXlsHyrdqx/Muu7H0PFYeU9lD/zakvpiG/H+HNK1j6XnY
+/Dqk/nwv/bWxdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOC80BpFbw2jv2csvRor
+n4YU8r11GL2MqOdx9OV4qr53G05/xFg6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+fFpzLL3lR2Pp60B5Hl+/jpTPY1zfc2sbRK+vx7yavhtZL/fLoHrLcQi9NYxuLB0AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAADeabeAHi6H4fQXzwEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIC/K5SB83d/AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH9ZSl/F
+gbwyeTTtNAAAAABJRU5ErkJggg==</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMdSURBVHhe7d3bsYIwAEVR6kpBqcMS
+qIZmKCbXANGAEdBRf+5aM9uRl9jB6a7S2QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AACK7uwI+kfG0sc+hdCncTk8NqTYxetn2xCrMff47C4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADgG94bS3959Hxx+rkx9aEMobfH0sc+VAPp8/320gEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAOB3HsbSn42n/3YsvRhSfDKWvpXH00P/8j8CAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA3tQcS28Npt/PjakP8z3dMnw+xOV4KS7r5nnAvJybhsxXY+l5CP3+
+G21nx9Ln/1TeCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHxfl4fMa2XcvHX+ZjV6
+vnG7Vg2d53P5++paSHk/fd+5sfRplH13dB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAD4tK41il5XrO7bjqVPY+jVc9O1MfVhPg5lFb2+Lx5NoGfHY+l7Q+mXy0WSJEmSJEmSJEmS
+JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEnSC72iy8PltWnIfKm2Ol6NpedB
+85DKHvrDkPrVEPPvxTRMY+l5/HweUj/eS98fS98bSgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAC+q2uNom/PZftj6dWg+RDnAfNpGL2MqOdx9Ov3oXruNpy+Z2csPb/n8HkAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgW5pj6S3r83nEPI+qz2PlYx+m67eWQfT6fMir
+6auR9XK9DKq3bMfS78dDrN5XvwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4iS6P
+jJ9x9j4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgfzCWDgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAALwhpT+9HsPEEuzL3wAAAABJRU5ErkJggg==</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMySURBVHhe7d2BkaIwAIbR1JWCUocl
+UA3NWEzOIEHAKGHd27nZe2/m2zWiYAd/uMm9AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAFShdwT9R8fSr0OOccjX+XhszCmk29+2MT0G39OrDwEAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACn/N2x9NOj57Pu713zEOsQ+oux9DHlsNzr/ag6AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA0O9pLP3VKPq/OZZe9Y6gl3H1mIfTPwgAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAADYa46lt4bRz4+ll2Hy+73CPHw+pvk8l+Z18+sQl/diWTLfjKWXIfTH
+Pdo6x9LLfbtG1QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAjoQyUr9XR8tb7p21G
+z3eWa6uh8zpmvrkWc9lPf+94LL0OsteBdgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AOAzoTWKvq4qry+XS3eT/Vj6NIa+uv907ZqHeD/Huoq+/lzXuvnxWPrd/Vn7W7Z+vyRJkiRJ
+kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkvQ/dkYog+Rr00D53Nr+
+3GUzll4GzWOue+hPQ+o3YyrPTXmcxtLL+Hl73PxZ71h6eWx8jLIDAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAXxZao+itYfTvGUtfDZqPKYdybRpGryPqZRz99npcfW8ZTn/n9Vh6
+GUcPy9p67/g6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcKQ5lt7ypbH0acS8jK/f
+h8yn4fLpPDcPoq/fj2U1fTOyXq/XQfWW/Vj69jymxzOn+wMAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAf2yygh8tuOP3DMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPB7
+hTpw/t3/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgN8s5z/Iv6sXEDuy8gAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="5" content-encoding="gzip">H4sIAAAAAAAA/2xTS28SURQ+d2aYYaY8ClakAoItIINSHtX9lTTaRJMmdaeLdgrTFpMKwmi6
+JP4Ad67d+BOMMe6Me/+Ma1PPPfcAXXgnZ/Ld73zncU/uTQCAQAvQPMIm/uPh28PwbDR+Y4Fa
+fTR3OB5oziTuqZJdDA5OXoeDiBg4pngD//bsfNIfX2r6JZqDxOFS+Aotj7ofWPk7pvtjrPZq
+NUzdlQGGSd1ll8UfR9F0dPIuCrVyHy0N15cl97eu7w2IUQormoZhniiJlpwQtKXc/AkwjzlS
+fkYg7TgDx2UQ9xi4a1IaWCzCOVnC7Ow8goSUn55huAdJ7fuaWPoAUjpw7qalVF32U0iua/wh
+RfUzUnq/UBLPSpn9jUUyN3SiYRZbF6ewIeVHbHWehZva8WVDOdRoc1Jaf9GVucUhOeV5AXnO
+mdtkHk9tx2ZROOnCbW4zr6SiSz0UuE2nyActlBgU72j5+xLJO1DW+2+LPVQ4tniXj1jBhFt8
+xAql3+ZdgXZVDrBrXKNaZ1C7x+OtU/JdaPBw6+Bz1w32ADQ5Te0+120i+YArNalSi8dQ3eEx
+tPTg2jy2Vof5th5bl/XtHvPd1dh2uYHu4ty4HtJNTw97R2fTYHJ+dDqeXgRRTJ9ZPRii94Io
+4Eu9vJC4TAaq1QpddnVHveByNHtCefQjU+6i4CeaIOoKPxDN/7PPFyys2EVyJ5oGg7C3R/XB
+Z2FZrIPwla4kcClaFl0hDOGbyJaFKXwL85SFJXwBVwhiwjfmEl220qgUDmkQxJVGiV3UULiH
+GgpfQw2FJ1BD4UmlUVEp0iBIK40Sc///AAAA//8DAD3bTJ6dBAAA</item>
+		<item item-id="6" content-encoding="gzip">H4sIAAAAAAAA/+JhYGBgBOJEIOYCs5mAJEtJUWqqBAMIOAAxR26yf1JWanIJWIQhAYhtGCFS
+zGD1nM5hwa6FniWpuYxgFTxAzIYswAsmWcCKeYCKnfNzk/JB0hATBYCYHSiMEOEH2QF0kCdQ
+vw8QLwHy3wHx//8g1UCl/jmpzjmZqXklYD2MEDshloFJoN4L5wUfLNwo9ZABDdgBXf3vPycD
+G5IYI1w3xDlMUP6//yAbIeD/KBhS4C8Q/0PCo2BkgSCGfCAsYVBgcGXIA9JFDJXoRQFeIMbA
+Cs/zoLJgF3tWgJENm+s8yca37z8xvEBRHHM6ZcH9G4zMQKYDtCBxBtoOsjcVTBaTZDcICDEw
+MSL7h1h9loyE1RALyLGfmoAS+0HBACrHQXHCwgApy0fByAGgZsdnAQaGmZCWDLh9g0gZcDYo
+iYDaJ55ALAgRE4IyUzJBaYcfqpcZqiMToRkkVQHEX/6jJs8JEBvOgAjfYIXgjNScHAWXnHRs
+yfQbGXqZoLQNiAjpOWmYfEFwWS/DApXzrBdhTRkONI9i8zzE9+AmHxCLYHPe0AVgjwIAAAD/
+/wMAqNC2WuEKAAA=</item>
+		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMuSURBVHhe7d2BcZswAIZRzaWBNIdH
+YBqWYRjVAuQILGzc0lwvfe/uSwwEORv84S6fDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAKAKZ0fQv3UsfRpyjEOe1stXxtQMuqdxvdsz5hTS/ScAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABwhb87lv7B6PnGyfemITYD6VMeYsjPe+nL/WVQ3Vg6AAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAXOVpLP1oFP1fHEvfK+PpcTh6a8zJWDoAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAABcpjuW3htG/3wsfcpDXM4K6/D5mNbrtbQul5eR83pvHjvfjKWX
+kfOvM44t31fPfGYsHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK4UykB5q46W9+5/
+bDN6vvN41oyYl3vl8+ZZzGU//Z15cP3loLqxdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAALhS6I2it1Xl8+12O91sP5Y+j6E358/PpjzE5TrWVfT279L7efP3Q+nF8Vh67/+XJEmS
+JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS/sc+EcogeWseKF9r
+7a9P2Yyll7HymOse+tOQ+t2YyvemPM5j6WXYfBlSf7WXfm4ovTgeSwcAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAA+F3qj6L1h9GvG0pux8jEtI+fzMHodUS/j6PfPY/PeYzi9o5xx
+egDdWDoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcqTuW3vNbY+nzQHkZX19Gyqch
+zuc8WgfR2/uxrKZvRtbr8zqo/mVMzVnt+91hdGPpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAcKXNAnq47YbT//AaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+LlCHTi/
++jcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwk+X8CxndpmszVdSYAAAAAElFTkSu
+QmCC</item>
+		<item item-id="8" content-encoding="gzip">H4sIAAAAAAAA/+JhYGBgBOJEIOYCs5mAJEtJUWqqBAMIOAAxR26yf1JWanIJWIQhAYhtGCFS
+zGD1nM5hwa6FniWpuYxgFTxAzIYswAsmWcCKeYCKnfNzk/JB0hATBYCYHSiMEOEH2QF00EKg
+jjVANshqRaBZ//+DVAOV+uekOudkpuaVgPUwQqyAWAYmgXovnBd8sHCj1EMGNGAHdPW//5wM
+bEhijHDdEOcwQfn//oNshID/o2BIgb9A/A8Jj4KRBYIY8oGwhEGBwZUhD0gXMVSiFwV4gRgD
+KzzPg8qCXexZAUY2bK7zJBvfvv/E8AJF8dmzKQvu32BkBjIdoAWJM9B2kL2pYLKYJLtBQIiB
+iRHZP8Tqs2QkrIZYQI791ASU2A8KBlA5DooTFgZIWT4KRg4AtQn+cjMw3JOFpAculJQBZ4OS
+iAAQGwKxIERMCMpMyQSlHX6oXmaojkyEZpBUBRB/+Y+aPCdAbDgDInyDFYIzUnNyFFxy0rEl
+029k6GWC0jYgIqTnpGHyBcFlvQwLVM6zXoQ1ZTjQPIrN8xDfg5t8QCyCzXlDF4A9CgAAAP//
+AwDbQqC74QoAAA==</item>
+		<item item-id="9" content-encoding="gzip">H4sIAAAAAAAA/4xTTW/TQBCdtR07dvNNCSlJSVqSEAdC6hTEdYkqqAQSUnuDQ+smbhukkpAY
+1GPED+DGmQs/AXHigrjzj1CYnZ2kPbLWWG/fvPnY0W4KAARaiOYRNvGfjN4fRGej8TsL1Oqj
+ucPxQHMmcc+V7GLw6uRtNIiJgWOKN/Bvz84n/fGlpl+jOUgcrIRv0PbRDrFyCfU/jau9Wk+w
+RA6xAYZJ3RVWxZ/G8XR08iGOtFJFZeH6suT+9vW9AQlKYcXTKCoRJdHSE4K2lBu/AOYJR8qv
+CKSdZOC4DJIeA3dNSgOLxTgnQ4gepKT88gKDPUhrz/cUewAyOmjuZqVUHfYzSOY0/pSh2nkp
+vd8oSRakLPzBAvkbOs2wAGAapwGsS/kZ+5wX4Kb2fFtXBdRci1Jaf9GVv8UxReU5hBInLW4w
+j0e2E7M4mgRwm7ssUZcBNVHmPp0Kn7K8yaByR8s/bpJ8B6p6/2O5hxrHVrb4jDVMuM1nrFH6
+u7wr067OAXaDa9SbDBr3eLZNSv4YWjzbJvjcdYs9AG1O07jPddtIPuBKbarU4THUH/IYOnpw
+XR5bZ4f5rh5bwPpuj/ngamy73ECwPDeuR3TNs8Pe0dk0nJwfnY6nF2Gc0GdWr4XovTAO9S1s
+rW4jLpPBLlqT3oy6oF54OZo9ozz6hamTvBT8PvVa4Aei/f/sMrkTT8NB1Nuj+uCzsCpyIHyx
+UEgIxS4qrhCG8E0MrgpT+BamqQoLVbBAkBC+MZfospVGxTmkQZBUGiV2UUPhHmoofA01FJ5C
+DYWnlUZFZUiDIKs0Sszt/wMAAP//AwC9LNVHmQQAAA==</item>
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMmSURBVHhe7d2BjZswAIZRz+WBPEdG
+YBqWYRg3NpAa6iTmcqqq63vS1wvgkG7wh7s8GgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAMAujI6g/9Wx9GXKMU552S5fmVMz6J7m7e7RyBkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADgmlAGxEeMnju4MHp+MPi9ZYrN+PmSpxjyeQt95AwAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAABw3R9j6c9G0f/FsfSzMowep9ffGjkDAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAvNcdS+8No18fS1/yFNd3hW34fE7b9Vaat5NTfNyrQ+aHsfQ5p/Ls7Xj6
++nv7O/tGzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjQhkob+2j5b37lx1Gz08e
+z8oYerr/u90rnw/PYi776e/UwfU3g+ojZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AIAxoTeK3rYrn2+323DVeSy9jqE376/PljzF9Truq+jtuVRn1F/6dCi99/+XJEmSJEmSJEmS
+JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS/seuCGWQvFUHyrda5+shh7H0
+OacQ876Hfny2mlP53ZTnOpZ+/7sNqb/aS/90KB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD4mtAbRe8No3/PWHoZQN/MaR0wr8Po+4h6GUe/f56b7z2G0zvKO549242cAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC7rjqX3fGksvQ6kl/H1dax8mWJ9z6NtEL29H8tq
++mFkfX++D6r/NqfmXe336++uv/n8DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCJ
+wwJ6uJ2G0z+8BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH6usA+cf/dfAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4CfL+Rd+U5CkiOBzSAAAAABJRU5ErkJggg==</item>
+		<item item-id="11" content-encoding="gzip">H4sIAAAAAAAA/4xSO28TQRCevbcvZ58TE2yDwY8YE7sAO1Rp0CiKoAAJKSUUyWGfkyAlNs4J
+pTzlB9BR01BRI3pahPhLx+zsGFrWmvM3833zWm0EAIosIQsZ2/QN0vdH6en54tIBfQ7ISrPF
+1MRsjj3Xsovpq7fv0mnGETjhfIu+3tXZ8mBxbcKvyXwKHP0VvgHTNSb7Svq59c/X5ym1qDK2
+bJ7OyVZp2mAOycpLhg5i8wdAbruInwmg4wlwfQFeIMAvIVoxQBZQUaUmECJ6PwFugg0haHtP
+ufuP9scTiBDdX1Q5LAsZAdjKmoyhgvjpBTERxIb6VuGCT3iDqumW+5uIQCRWKbxlcF7loWuI
+W7/J826Z/FlN589hG/EjrZXX4LYhvmxrgu+wLmXdhmxTbwpo3DHiD02eYgx3jf997UNLchv3
+ZKQWFbwvI7V4pLZ4dfY6kuB0pUenJ6C7I81669vom9u46cEDuY3+mgIYSKHuQ+k8oOCu9Bpw
+r6Gs2pFVR/x64tne8ekqWZ4dzxeriyRzWbujHyGHD5MsMQ9l1/yBRQX44erH8pisz1h7YXJ9
+fvWM65iHOyJ7qURrTkE/UKP/j66L+9kqmaZ7h5bZRoRtVQU1VIVGSg2JLNrKUkObUtvKVkOn
+0BGHNFAQcEmTI1Ge1ugsnzUEAq3R4pKuo9ND0nD6Bmk4PSINp5e5F4EKawjEWqPFMvwfAAAA
+//8DAJXVH0fuAwAA</item>
+		<item item-id="12" content-encoding="gzip">H4sIAAAAAAAA/4xTPW8TQRCdvTvf2Rd/x4bYATuxTfAZhCKLAlENUQSRQAKlClCEi31JjBRs
+LgdyeT0SHQ0NDf8AhGgRPX/JzM6OQ0rWmtN7s+/N7K7GeQBQFCGFz9imbzZ6ux+dTKZvHNBr
+hyI3no5MzubcIy07Gz09eh2NEs7AK/Zb9HXPT2c707lJv6DwKLF/IXxJ8ZO6fqDyn0l/P/OP
+6/WNcmXiFlg2n6560fxBksSTo3dJZJR7FCW4vBzc61zmFmS4hJPEUbTGKaQozBi6iI1fAGnG
+Q/xCAN2sAC8nIOsLyK0gWtQsoXeylBpCHvHTYzL7UDA73/PUR9nbd+5R6aKxpbkSoj4jFilZ
+NjgtcvcKYvUPsWzV+McVXfkZrCJ+pPOlFagh+r8JrdYNwNoVkda1dA5XDf3K9ABgTXhN8+fc
+pSEH8Zpykca6gOY1o36/zjfahuuG/1hyaIm32ZZLtKjghlyixeU3hTWYdcTgdqVHpyege0Oe
+r8fF78KWPF8PbsrzbckOQF/KdAPp26fkQDr1udMtuWnHPATc5skrjYeHJ3E4Oz08nsZnYZJh
+bVcPMKd3wyQ0g9FfDsgGfWyeFIC6zJPimfHD+eT8IdcxQz+geKLkL2PWgn6gBv+fXRb3kjgc
+RcNdi7cCEbZVGVSgFhopFdDmoq0sFdhkbStbBc5CZxzSwIJAhjQp0parNdrlsYZAVmu0OKfr
+aLtPGravkIbtedKwvcC9CBRZQ6CkNVosh/8LAAD//wMA1XKyuyoEAAA=</item>
+		<item item-id="13" content-encoding="gzip">H4sIAAAAAAAA/4xSTU8TYRCedz+729IFbJEq7YpVZDmYQmL0OCFEYzQx4eTHAdd2BUywtWwM
+4bS/gJtnL/4Ewt140oN/qc7MO9Wr27y7zzzzzDPTN9MAAEMnpxMLduldKz7tF4fH448e8LNL
+JxqNh5ZzhXvCspPhi3cfimEpDLyVeofewenRZHd8ZunXdEIi9v8K36j4ZgDwkLr/Cv7F/Px0
+dCpwXPl65bQoViWHdBYmAj3EzneAyvURvxJAL1DghwqCmoIwQnQSgM81MjVmG2IbX1EcGH9w
+f7D9CKBu1VXYQATKYp27WVzVpWkTMf5BUZAgLv8mSXPROo0Sdn4KS4gXNF+VwLJNfFvixDnV
+XlOiycQrIlraz2/rmK0VBe3rOu+KzDuAVZ13HkNHa9s3dNYO36DO2pFZ1zRqSdTVAq+nPbqp
+gt4ta16mYv4A1hG/PCNpCrdt5nJdMwB9tend0b59Iu9qp7502tA76t7Tq9mwN7Cp/1/ClyTM
+ZFuS0c7B4TSfHB28H09P8tIXE7aKhN7Ly9wuxqb9SJUsKi9Hmy0EcxTnZ8enj8XHLuoWnedm
+vlDyzOgHZuv/2bl5WE7zYbGzJ/1peitMzSKYzMwYGcPsbC0yxjGZS8WpcU3mkU1qPFLBjIBv
+MqdCSgWs4bpQNARqrGFxRBopj0kj5XXSSHmDNFK+wBquaoqGQMIaFuv4fwAAAP//AwCln2ZS
+4AMAAA==</item>
+		<item item-id="14" content-encoding="gzip">H4sIAAAAAAAA/4xTS48SQRCuHgaG1zKwq8giD4VVdni4CwK+Lp3NZo3RRMPJx2EdYfZhsoLs
+xGw88Qu8efbiTzDejUcT/xJWVRfGo016+Krq+77qVKfTAKBw+7iTjCP4jQfvR8Hx6fSdDbT2
+cCcm07HJRTj3kGhn46dv3gbjkDPwmvUWfmPnJ7O96YVJv8TtYGL0l/gKNxVbDn6QP4r/E+P6
+ZcmpwIrwvx3Og6DANY17bcbQ1nrzB8AiEtX6CwJtxwREHQGxuAAnobXlAoTYylKqC0kTfzPx
+LkDKMBdOWmvAik5RJ4MXKW6Y0Tr5E6OYa4DOZAW4Oa3XfyPIrhvfSY58H8GG1p/wtIscXDKF
+rxtU+IhulyWRpcQLgLyxWLhXxCJPhSMoiEUeNkVRoAJPtyiazFXRFKn0DEqiKUJZzlyqyFHL
+VaFWjMs1MeXwOcB1ictyLFo1mU20LuOsbQmo3zD0D1syx5sm/r6KoSHa+rbMtYGGnsy1wfZN
+iWoctURgt6VHqyOgfUsuscPmA9jR+vNjpHZgV65zRyoAXbFp96RvF5O3pVOXO/VlNq2BzKY/
+FDC4I0Mamtu6K0MZypDuSTyQm7gvcX91Mw/4HbiT3uHx3J+dHB5N52d+GOW2dXpOnN73Q99M
+eNv8sYqfoJJkhTFFSf/i9PyAfcwTbOJ+olZPhdcSf6Ca/59dmTvh3B8HvX3uD54QqyoLylNL
+QkpRdllKKGUpL4Liqoooz0abqrKRBUsEUeVZC42lGHFI5zAHQZw4RE4gh+VJ5LA8hRyWp5HD
+8jXikCrDHAQucYgsx/8DAAD//wMAb84rwLoEAAA=</item>
+		<item item-id="15">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH9SURBVHhe7d1JCgMxDEVBHd03d7oX
+AiVRQ08rUwUPD5f4sZlnAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhxdgTdWDoA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQGUsHAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAbvkbSz8aRTeWDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTtWHo3
+jG4sHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgOx9K7fwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAIAU3Sh6Le33MYYkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
+SZIkSZIkSZIkSZIkSZIkSZKkhbsi6iD6LkfSu38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACAFN0oejeMbiwdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqNqx9I6xdAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKD6WkCP8TOc/vANAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAArCty4PztEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjZ
+nB/wXmaupY9bKAAAAABJRU5ErkJggg==</item>
+	</binaryContent>
+</worksheet>

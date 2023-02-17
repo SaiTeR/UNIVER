@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest e3f65e7709ada9ca80d4ce81b2a23651?>
+<worksheet version="2.0.2" xmlns="http://schemas.mathsoft.com/worksheet20" xmlns:n="urn:language-map" xmlns:ws="http://schemas.mathsoft.com/worksheet20" xmlns:ml="http://schemas.mathsoft.com/math20" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
+	<ws:pointReleaseData>
+		<prd:placeholderMultiplicationStyle value="default" region-id="225" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="225" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="204" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="204" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="204" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="204" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="204" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="204" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="205" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="205" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+		<prd:placeholderMultiplicationStyle value="default" region-id="205" xmlns:prd="http://schemas.mathsoft.com/point-release-data-13-1"/>
+	</ws:pointReleaseData>
+	<metadata>
+		<generator>Mathcad Professional 14.1</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author/>
+			<company/>
+			<keywords/>
+			<revisedBy>BRDen2000@gmail.com</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>1</revision>
+			<documentID>0BAF3982-5472-4474-9A98-4432BD9EAFFA</documentID>
+			<versionID>43DE06BB-A894-43C1-B65D-723469EB5E4B</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Обычный">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="dot" derivative="derivative" literal-subscript="small" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Переменные" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Константы" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 3" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Пользовательский 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Шрифт математического текста" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="масса" length="длина" time="время" current="сила тока" thermodynamic-temperature="температура" luminous-intensity="сила света" amount-of-substance="количество вещества" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results>
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="false" simplify-units="false" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="72" right="72" top="72" bottom="72"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="RU" UI="RU"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC11"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<ws:editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="in"/>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</ws:editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="true" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="225" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="41"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="67" left="18" top="32.25" width="28.5" height="12" align-x="27.75" align-y="42" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Обычный" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Task 1</p>
+			</text>
+		</region>
+		<region region-id="225" left="0" top="63" width="6008.25" align-x="0" align-y="63" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="644.25">
+			<area is-collapsed="true" name="1)" show-name="true" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="64" bottom-lock-id="58">
+				<region region-id="33" left="18" top="28.5" width="71.25" height="45.75" align-x="41.25" align-y="62.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:neg/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">e</ml:id>
+										<ml:apply>
+											<ml:div/>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">x</ml:id>
+												<ml:real>2</ml:real>
+											</ml:apply>
+											<ml:real>3</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="34" left="18" top="99.75" width="144" height="53.25" align-x="41.25" align-y="140.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedBIUnit">
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">x</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">f</ml:id>
+											<ml:id xml:space="preserve">x</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:neg/>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:apply>
+														<ml:mult/>
+														<ml:real>2</ml:real>
+														<ml:id xml:space="preserve">x</ml:id>
+													</ml:apply>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">e</ml:id>
+														<ml:apply>
+															<ml:div/>
+															<ml:apply>
+																<ml:pow/>
+																<ml:id xml:space="preserve">x</ml:id>
+																<ml:real>2</ml:real>
+															</ml:apply>
+															<ml:real>3</ml:real>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:div/>
+											<ml:real>1</ml:real>
+											<ml:real>2</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="84" left="18" top="200.25" width="210" height="132.75" align-x="18" align-y="200.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="2"/>
+				</region>
+				<region region-id="38" left="18" top="365.25" width="24" height="12.75" align-x="29.25" align-y="374.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:id xml:space="preserve">a</ml:id>
+							<ml:real>0</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="39" left="18" top="389.25" width="95.25" height="12.75" align-x="74.25" align-y="398.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">root</ml:id>
+								<ml:sequence>
+									<ml:apply>
+										<ml:id xml:space="preserve">g</ml:id>
+										<ml:id xml:space="preserve">a</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">a</ml:id>
+								</ml:sequence>
+							</ml:apply>
+							<ml:result>
+								<ml:real>-0.65115054248760429</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="48" left="18" top="423.75" width="100.5" height="52.5" align-x="41.25" align-y="464.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:neg/>
+									<ml:apply>
+										<ml:div/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>2</ml:real>
+												<ml:id xml:space="preserve">x</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">e</ml:id>
+												<ml:apply>
+													<ml:div/>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">x</ml:id>
+														<ml:real>2</ml:real>
+													</ml:apply>
+													<ml:real>3</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:real>3</ml:real>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>1</ml:real>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="52" left="18" top="483.75" width="172.5" height="53.25" align-x="41.25" align-y="524.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">x</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">x</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">f</ml:id>
+											<ml:id xml:space="preserve">x</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:neg/>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:real>2</ml:real>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">e</ml:id>
+														<ml:apply>
+															<ml:div/>
+															<ml:apply>
+																<ml:pow/>
+																<ml:id xml:space="preserve">x</ml:id>
+																<ml:real>2</ml:real>
+															</ml:apply>
+															<ml:real>3</ml:real>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:div/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:real>4</ml:real>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">x</ml:id>
+														<ml:real>2</ml:real>
+													</ml:apply>
+												</ml:apply>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">e</ml:id>
+													<ml:apply>
+														<ml:div/>
+														<ml:apply>
+															<ml:pow/>
+															<ml:id xml:space="preserve">x</ml:id>
+															<ml:real>2</ml:real>
+														</ml:apply>
+														<ml:real>3</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+											<ml:real>9</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="56" left="24" top="557.25" width="44.25" height="12.75" align-x="34.5" align-y="566.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:id xml:space="preserve">x</ml:id>
+							<ml:real>-0.651</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="57" left="24" top="593.25" width="60.75" height="12.75" align-x="45.75" align-y="602.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">x</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:real>-0.984757068024757</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="204" left="0" top="111.75" width="6008.25" align-x="0" align-y="111.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="902.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="70" bottom-lock-id="109">
+				<region region-id="95" left="24" top="63" width="180.75" height="18.75" align-x="48.75" align-y="78" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">u</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:plus/>
+								<ml:apply>
+									<ml:minus/>
+									<ml:apply>
+										<ml:plus/>
+										<ml:apply>
+											<ml:minus/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>0.5</ml:real>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">u</ml:id>
+													<ml:real>5</ml:real>
+												</ml:apply>
+											</ml:apply>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>2</ml:real>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">u</ml:id>
+													<ml:real>4</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>3</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">u</ml:id>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult/>
+										<ml:real>7</ml:real>
+										<ml:id xml:space="preserve">u</ml:id>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>8</ml:real>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="107" left="48" top="121.5" width="196.5" height="29.25" align-x="72.75" align-y="138" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">u</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">u</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">f</ml:id>
+											<ml:id xml:space="preserve">u</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:plus/>
+											<ml:apply>
+												<ml:minus/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:real>9</ml:real>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">u</ml:id>
+														<ml:real>2</ml:real>
+													</ml:apply>
+												</ml:apply>
+												<ml:apply>
+													<ml:mult/>
+													<ml:real>8</ml:real>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">u</ml:id>
+														<ml:real>3</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>2.5</ml:real>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">u</ml:id>
+													<ml:real>4</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:real>7</ml:real>
+									</ml:apply>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="99" left="30" top="192" width="312" height="288.75" align-x="30" align-y="192" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<plot disable-calc="false" item-idref="4"/>
+				</region>
+				<region region-id="155" left="432" top="507" width="134.25" height="18.75" align-x="554.25" align-y="522" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:apply>
+							<ml:equal/>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>9</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">u</ml:id>
+												<ml:real>2</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>8</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">u</ml:id>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult/>
+										<ml:real>2.5</ml:real>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">u</ml:id>
+											<ml:real>4</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>7</ml:real>
+							</ml:apply>
+							<ml:real>0</ml:real>
+						</ml:apply>
+					</math>
+				</region>
+				<region region-id="102" left="168" top="591" width="25.5" height="12.75" align-x="180.75" align-y="600" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:id xml:space="preserve">b</ml:id>
+							<ml:real>1</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="156" left="426" top="566.25" width="207.75" height="62.25" align-x="528.75" align-y="600" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:matrix rows="4" cols="1">
+							<ml:real>-0.67193099341609055347</ml:real>
+							<ml:real>1.6395902567197032425</ml:real>
+							<ml:apply>
+								<ml:minus/>
+								<ml:real>1.1161703683481936555</ml:real>
+								<ml:imag symbol="i">1.138292592482354978</ml:imag>
+							</ml:apply>
+							<ml:apply>
+								<ml:plus/>
+								<ml:real>1.1161703683481936555</ml:real>
+								<ml:imag symbol="i">1.138292592482354978</ml:imag>
+							</ml:apply>
+						</ml:matrix>
+					</math>
+				</region>
+				<region region-id="100" left="18" top="597" width="29.25" height="12.75" align-x="29.25" align-y="606" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar">
+							<ml:id xml:space="preserve">a</ml:id>
+							<ml:real>-1</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="104" left="168" top="615" width="88.5" height="12.75" align-x="227.25" align-y="624" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">root</ml:id>
+								<ml:sequence>
+									<ml:apply>
+										<ml:id xml:space="preserve">g</ml:id>
+										<ml:id xml:space="preserve">b</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">b</ml:id>
+								</ml:sequence>
+							</ml:apply>
+							<ml:result>
+								<ml:real>1.6395902567197014</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="101" left="18" top="621" width="95.25" height="12.75" align-x="74.25" align-y="630" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">root</ml:id>
+								<ml:sequence>
+									<ml:apply>
+										<ml:id xml:space="preserve">g</ml:id>
+										<ml:id xml:space="preserve">a</ml:id>
+									</ml:apply>
+									<ml:id xml:space="preserve">a</ml:id>
+								</ml:sequence>
+							</ml:apply>
+							<ml:result>
+								<ml:real>-0.67193099344483742</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="142" left="42" top="723" width="150" height="18.75" align-x="66.75" align-y="738" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">u</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>9</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">u</ml:id>
+												<ml:real>2</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>8</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">u</ml:id>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:apply>
+										<ml:mult/>
+										<ml:real>2.5</ml:real>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">u</ml:id>
+											<ml:real>4</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>7</ml:real>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="143" left="42" top="745.5" width="189" height="29.25" align-x="66.75" align-y="762" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">u</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">u</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">f</ml:id>
+											<ml:id xml:space="preserve">u</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:apply>
+										<ml:plus/>
+										<ml:apply>
+											<ml:minus/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>18</ml:real>
+												<ml:id xml:space="preserve">u</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>24</ml:real>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">u</ml:id>
+													<ml:real>2</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>10.0</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">u</ml:id>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="169" left="636" top="771" width="215.25" height="12.75" align-x="648.75" align-y="780" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:id xml:space="preserve">d</ml:id>
+							<ml:apply>
+								<ml:plus/>
+								<ml:real>1.1161703683481936555</ml:real>
+								<ml:imag symbol="i">1.138292592482354978</ml:imag>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="166" left="342" top="777" width="213.75" height="12.75" align-x="353.25" align-y="786" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedBIUnit">
+							<ml:id xml:space="preserve">c</ml:id>
+							<ml:apply>
+								<ml:minus/>
+								<ml:real>1.1161703683481936555</ml:real>
+								<ml:imag symbol="i">1.138292592482354978</ml:imag>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="144" left="42" top="795" width="45" height="12.75" align-x="53.25" align-y="804" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar">
+							<ml:id xml:space="preserve">a</ml:id>
+							<ml:real>-0.672</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="145" left="210" top="795" width="36.75" height="12.75" align-x="222.75" align-y="804" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar">
+							<ml:id xml:space="preserve">b</ml:id>
+							<ml:real>1.64</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="170" left="642" top="801" width="102" height="12.75" align-x="666" align-y="810" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">d</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:complex>
+									<ml:real>-8.1933023244909577</ml:real>
+									<ml:imag>-12.701284119115062</ml:imag>
+								</ml:complex>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="168" left="348" top="813" width="100.5" height="12.75" align-x="370.5" align-y="822" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">c</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:complex>
+									<ml:real>-8.1933023244909577</ml:real>
+									<ml:imag>12.701284119115062</ml:imag>
+								</ml:complex>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="146" left="210" top="819" width="57.75" height="12.75" align-x="234" align-y="828" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">b</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:real>9.079039999999992</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="147" left="42" top="825" width="66" height="12.75" align-x="64.5" align-y="834" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">a</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:real>-25.96866048</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="205" left="0" top="177.75" width="6008.25" align-x="0" align-y="177.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="890.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="187" bottom-lock-id="191">
+				<region region-id="185" left="90" top="68.25" width="75" height="33.75" align-x="114.75" align-y="90" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">n</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">e</ml:id>
+									<ml:apply>
+										<ml:neg/>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">n</ml:id>
+											<ml:real>2</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">n</ml:id>
+										<ml:real>3</ml:real>
+									</ml:apply>
+									<ml:real>3</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="186" left="84" top="130.5" width="186" height="38.25" align-x="108.75" align-y="156" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">n</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">n</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">f</ml:id>
+											<ml:id xml:space="preserve">n</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:apply>
+										<ml:minus/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">n</ml:id>
+												<ml:real>2</ml:real>
+											</ml:apply>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">e</ml:id>
+												<ml:apply>
+													<ml:neg/>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">n</ml:id>
+														<ml:real>2</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:div/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:real>2</ml:real>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">n</ml:id>
+														<ml:real>4</ml:real>
+													</ml:apply>
+												</ml:apply>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">e</ml:id>
+													<ml:apply>
+														<ml:neg/>
+														<ml:apply>
+															<ml:pow/>
+															<ml:id xml:space="preserve">n</ml:id>
+															<ml:real>2</ml:real>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+											<ml:real>3</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="174" left="102" top="514.5" width="123.75" height="37.5" align-x="213.75" align-y="540" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:apply>
+							<ml:equal/>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">n</ml:id>
+										<ml:real>2</ml:real>
+									</ml:apply>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">e</ml:id>
+										<ml:apply>
+											<ml:neg/>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">n</ml:id>
+												<ml:real>2</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>2</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">n</ml:id>
+												<ml:real>4</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">e</ml:id>
+											<ml:apply>
+												<ml:neg/>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">n</ml:id>
+													<ml:real>2</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:real>3</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:real>0</ml:real>
+						</ml:apply>
+					</math>
+				</region>
+				<region region-id="175" left="96" top="564" width="33" height="78.75" align-x="111.75" align-y="606" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:matrix rows="3" cols="1">
+							<ml:real>0</ml:real>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:sqrt/>
+									<ml:real>6</ml:real>
+								</ml:apply>
+								<ml:real>2</ml:real>
+							</ml:apply>
+							<ml:apply>
+								<ml:neg/>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:sqrt/>
+										<ml:real>6</ml:real>
+									</ml:apply>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:matrix>
+					</math>
+				</region>
+				<region region-id="176" left="96" top="670.5" width="139.5" height="37.5" align-x="120.75" align-y="696" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">f</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">n</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">n</ml:id>
+										<ml:real>2</ml:real>
+									</ml:apply>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">e</ml:id>
+										<ml:apply>
+											<ml:neg/>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">n</ml:id>
+												<ml:real>2</ml:real>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:mult/>
+										<ml:apply>
+											<ml:mult/>
+											<ml:real>2</ml:real>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">n</ml:id>
+												<ml:real>4</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">e</ml:id>
+											<ml:apply>
+												<ml:neg/>
+												<ml:apply>
+													<ml:pow/>
+													<ml:id xml:space="preserve">n</ml:id>
+													<ml:real>2</ml:real>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+									<ml:real>3</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="177" left="102" top="730.5" width="267" height="38.25" align-x="126.75" align-y="756" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDFunction">
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">n</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">n</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">f</ml:id>
+											<ml:id xml:space="preserve">n</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:apply>
+										<ml:plus/>
+										<ml:apply>
+											<ml:minus/>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:apply>
+														<ml:mult/>
+														<ml:real>4</ml:real>
+														<ml:apply>
+															<ml:pow/>
+															<ml:id xml:space="preserve">n</ml:id>
+															<ml:real>5</ml:real>
+														</ml:apply>
+													</ml:apply>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">e</ml:id>
+														<ml:apply>
+															<ml:neg/>
+															<ml:apply>
+																<ml:pow/>
+																<ml:id xml:space="preserve">n</ml:id>
+																<ml:real>2</ml:real>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+												<ml:real>3</ml:real>
+											</ml:apply>
+											<ml:apply>
+												<ml:div/>
+												<ml:apply>
+													<ml:mult/>
+													<ml:apply>
+														<ml:mult/>
+														<ml:real>14</ml:real>
+														<ml:apply>
+															<ml:pow/>
+															<ml:id xml:space="preserve">n</ml:id>
+															<ml:real>3</ml:real>
+														</ml:apply>
+													</ml:apply>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">e</ml:id>
+														<ml:apply>
+															<ml:neg/>
+															<ml:apply>
+																<ml:pow/>
+																<ml:id xml:space="preserve">n</ml:id>
+																<ml:real>2</ml:real>
+															</ml:apply>
+														</ml:apply>
+													</ml:apply>
+												</ml:apply>
+												<ml:real>3</ml:real>
+											</ml:apply>
+										</ml:apply>
+										<ml:apply>
+											<ml:mult/>
+											<ml:apply>
+												<ml:mult/>
+												<ml:real>2</ml:real>
+												<ml:id xml:space="preserve">n</ml:id>
+											</ml:apply>
+											<ml:apply>
+												<ml:pow/>
+												<ml:id xml:space="preserve">e</ml:id>
+												<ml:apply>
+													<ml:neg/>
+													<ml:apply>
+														<ml:pow/>
+														<ml:id xml:space="preserve">n</ml:id>
+														<ml:real>2</ml:real>
+													</ml:apply>
+												</ml:apply>
+											</ml:apply>
+										</ml:apply>
+									</ml:apply>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="178" left="426" top="774.75" width="39" height="29.25" align-x="437.25" align-y="792" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar">
+							<ml:id xml:space="preserve">c</ml:id>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:neg/>
+									<ml:apply>
+										<ml:sqrt/>
+										<ml:real>6</ml:real>
+									</ml:apply>
+								</ml:apply>
+								<ml:real>2</ml:real>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="179" left="102" top="789" width="24" height="12.75" align-x="113.25" align-y="798" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar">
+							<ml:id xml:space="preserve">a</ml:id>
+							<ml:real>0</ml:real>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="180" left="270" top="780.75" width="35.25" height="29.25" align-x="282.75" align-y="798" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define warning="WarnRedefinedUDScalar">
+							<ml:id xml:space="preserve">b</ml:id>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:sqrt/>
+									<ml:real>6</ml:real>
+								</ml:apply>
+								<ml:real>2</ml:real>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="182" left="270" top="813" width="63" height="12.75" align-x="294" align-y="822" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">b</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:real>-0.54655503858914678</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="181" left="432" top="813" width="56.25" height="12.75" align-x="454.5" align-y="822" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">c</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:real>0.54655503858914678</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+				<region region-id="183" left="102" top="819" width="40.5" height="12.75" align-x="124.5" align-y="828" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:eval>
+							<ml:apply>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:id xml:space="preserve">a</ml:id>
+							</ml:apply>
+							<ml:result>
+								<ml:real>0</ml:real>
+							</ml:result>
+						</ml:eval>
+					</math>
+				</region>
+			</area>
+			<rendering item-idref="6"/>
+		</region>
+		<region region-id="206" left="0" top="249.75" width="6008.25" align-x="0" align-y="249.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="302.25">
+			<area is-collapsed="true" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="194" bottom-lock-id="196">
+				<region region-id="192" left="36" top="62.25" width="68.25" height="45.75" align-x="60" align-y="90" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:function>
+								<ml:id xml:space="preserve">q</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">r</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:apply>
+								<ml:nthRoot/>
+								<ml:real>3</ml:real>
+								<ml:apply>
+									<ml:div/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">r</ml:id>
+										<ml:real>2</ml:real>
+									</ml:apply>
+									<ml:apply>
+										<ml:plus/>
+										<ml:real>1</ml:real>
+										<ml:apply>
+											<ml:pow/>
+											<ml:id xml:space="preserve">r</ml:id>
+											<ml:real>4</ml:real>
+										</ml:apply>
+									</ml:apply>
+								</ml:apply>
+							</ml:apply>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="193" left="36" top="157.5" width="75.75" height="29.25" align-x="60" align-y="174" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math error="Эта переменная не определена." optimize="false" disable-calc="false">
+						<ml:define>
+							<ml:function>
+								<ml:id xml:space="preserve">g</ml:id>
+								<ml:boundVars>
+									<ml:id xml:space="preserve">r</ml:id>
+								</ml:boundVars>
+							</ml:function>
+							<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+								<ml:apply>
+									<ml:derivative/>
+									<ml:lambda>
+										<ml:boundVars>
+											<ml:id xml:space="preserve">r</ml:id>
+										</ml:boundVars>
+										<ml:apply>
+											<ml:id xml:space="preserve">q</ml:id>
+											<ml:id xml:space="preserve">r</ml:id>
+										</ml:apply>
+									</ml:lambda>
+								</ml:apply>
+								<ml:symResult>
+									<ml:placeholder/>
+								</ml:symResult>
+							</ml:symEval>
+						</ml:define>
+					</math>
+				</region>
+				<region region-id="199" left="54" top="212.25" width="71.25" height="12" align-x="63.75" align-y="222" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<text use-page-width="false" push-down="false" lock-width="false">
+						<p style="Обычный" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">NOT WORKIN :(</p>
+					</text>
+				</region>
+			</area>
+			<rendering item-idref="7"/>
+		</region>
+		<region region-id="209" left="18" top="276" width="28.5" height="12" align-x="27.75" align-y="285.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Обычный" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Task 2</p>
+			</text>
+		</region>
+		<region region-id="210" left="0" top="336.75" width="6000" align-x="6000" align-y="345.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="" height="926.25">
+			<area is-collapsed="false" name="" show-name="false" show-border="true" show-icon="true" show-timestamp="true" allow-expand="false" is-locked="false" timestamp="" top-lock-id="210" bottom-lock-id="214" bottom-tag="">
+				<region region-id="218" left="54" top="354" width="46.5" height="27.75" align-x="69.75" align-y="369.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:apply>
+							<ml:plus/>
+							<ml:apply>
+								<ml:neg/>
+								<ml:id xml:space="preserve">y</ml:id>
+							</ml:apply>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:real>2</ml:real>
+								</ml:apply>
+								<ml:apply>
+									<ml:minus/>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:real>3</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+					</math>
+					<rendering item-idref="8"/>
+				</region>
+				<region region-id="223" left="54" top="402" width="74.25" height="33.75" align-x="108.75" align-y="423.75" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+					<math optimize="false" disable-calc="false">
+						<ml:apply>
+							<ml:minus/>
+							<ml:apply>
+								<ml:minus/>
+								<ml:apply>
+									<ml:plus/>
+									<ml:apply>
+										<ml:neg/>
+										<ml:id xml:space="preserve">y</ml:id>
+									</ml:apply>
+									<ml:apply>
+										<ml:div/>
+										<ml:real>2</ml:real>
+										<ml:real>3</ml:real>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:div/>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:real>9</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">x</ml:id>
+									<ml:real>2</ml:real>
+								</ml:apply>
+								<ml:real>27</ml:real>
+							</ml:apply>
+						</ml:apply>
+					</math>
+					<rendering item-idref="9"/>
+				</region>
+			</area>
+			<rendering item-idref="10"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yNSw6CQBBEuxkVxA9u3DgkeAZP4MK4MjHRA5AR8ZcYDbJw6c3H6gb3Dqmh
+qH7VDImIoT0Uqze4k+MiP1fueclPj+ru6i7JmUJ9jVeudhrRDIruxfZwK4u6iXbNi4I5LtPu
+l26iXr5i976+1rraKJtCG27Z5ng8xOn/6W95WFeuKBerQEe2BTOeEFv24pgthj7jgK1BNWPD
+tuMl6YAhD9MF81li1BNGWqEyMJEwAvdlj9RjMFofgNH6EIzWR/ovmLEyMIkwAn8BAAD//wMA
++yMia3wBAAA=</item>
+		<item item-id="2" content-encoding="gzip">H4sIAAAAAAAA/5RTS3MSQRDu2SfLawORR1gIGBQjIJJJtCo5YSrlRS2r0HtqAxuCVREkq5Uj
+lR/gzbMXf4JHL14ty7+09nQvqEdnq3d6e77++uvZmTQACLRXaEnydXwngnfDYDKdvTVAjQM0
+ZzwbcUyn2KGCXY5enr0JRiFFYEj5Gr6tq4v58eyaw8/RbAwM18AXaGW0FFbuo30Tf77VeB2L
+0kDTycmviz8Jw8X07H0YMPIIzYW/h3G088+3SQRGuAiCMgUkWmZOriW3vgMsTVt+xnlgJXi2
+HZ4TSZ6dlNSwSIj7owttrw9p+ekZ5iUhQwtf07Qg+0iZpZSl40ql6ziLoQ1yb7JUMifzv3A9
+kafMcQ6bFOewKT+iomUOblH4y6YK0/YVmM8uspRCiediWVo/kL+0xdKwNUuYj3uHUkJFmj8x
+pezxUmWluspiK4pb7OMO14jjprRN7QxqUGfENu6aMJDsEUCDyWq3mayxItthaGNNBk1WWrzD
+nTdR/F3uvEmdt7jzwj3uvKUyJ7DLnbfgPne+u+4c2kxodbjldpfnzgNCfuiupPT4b3ThIWvq
+kSbUDn1m6OyxJPV/JEvqU4V9rtmOax7Q2XXH8nSy8OcXp+ezxaUfmgQtqCtA4RM/9PloVeIj
+puEu0LXRYqBL51edu6R/Pb16Sjx8barqQoj4fPOI8AFR/Y9oTG6HC38UyBONlrwYWBcbIDwR
+KU8IDxejutCEp2NqXejCMyIVMRADETomYpYDXLIURmXZhEEnoTAK7CgelZ5EDKWnEEPpacRQ
+eoZqoZMlDDquwihwLP43AAAA//8DAKBJzGdsBAAA</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKFSURBVHhe7d2BiYMwGIbhzJWBMocj
+ZJos4zD/1Z4WvaalxfYg8DzwognoCl+6iFcDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA2KRXR9A/OpbeyuV/Oeq8ngEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDh/ONY
+eouSa9z20ZfB9P0ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMrdWPqjUfQzY+lz
+zdfvj+Poc9ScorT1CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAylO5beG0bv3b1l
+rpEPY+m/I+q57m8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUTwcS+/dn9IZS49W
+IpW2HgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICRpN4o+r7N8j5N08vd6Y2l9+4u
+ev+TJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS9P3ekfaD
+6IttJL13f0pvGL2VSKWtBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAkqTeK3htG
+/8ZY+lxz5HqYTwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG0R1L7zkzlr6Moi/f
+b5V2vY2at3cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgNIcF9DT9GU4/eX6qlUi5
+xrweAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgLGkbeD808+nlqH0lKNaSgcAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBBRfwAIk04kLImu/oAAAAASUVORK5CYII=</item>
+		<item item-id="4" content-encoding="gzip">H4sIAAAAAAAA/5RT224SYRCef48s5VCoHMpSt2IFWrHir9HQq9o03lhjgg/QbGFLMakg3Sa9
+xD6Ad1574yP4At4ZY3wlnMNK9dKfzP7DN9/MfLMMGQBQaG/Q0uyb+ExF7/vRaDx5ZwGdJ2je
+cDIQzGSsR7TzweuTt9EgZgT6nG/g07k4mx5MrgQ+QnMR6C+Jr9DaIJ2/o30wbr7TGSSuAYbJ
+TnHZ/Hkcz8Ynl3EkzD20PPx9rL3GP99tLmDFsyiqMqDRslN2Hb3+DWBuu/oz3vtOSm7XkzuV
+lttb0QY2ifH9mMp43IWM/vQS89KQ5cDXzJ8AQI5T5l5ek66DHEKr7F7nuGVBF39hPFXkzGEB
+h1SnsKY/oqJ5AW4x/GWN4Evil6SeWxYppYrc5ap2fmD9yrpIw9EcZetd3XsKNW3/xJSqL6Ea
+i3vUhbqIrVFthT+p2uAxritwWyIbHHmGXQPpWt6UKQKE7sgUAU/RkClKd2WKBiWOYEumaMA9
+mWJrOQU0paDTEvnNttytbdHY5s492JEX24b7omgnwQE6UqD1QBR1ENoVRR1u8FBaNpOWXV7D
+/FAfj2bh9Oz4dDI7D2ObqSXaZoYPwziULakl22Js4sPk1UPRaNu8irRC6fBqfPGC68g/oE67
+rW62Fs8CP6Dq/4Emxd14Fg4ifWhwyE+IgVoF5asFeUr5GFwEylC+iamBMpVvLQixkAMLdGzk
+zPcx5BCHslzmoJMiDpE9qkPpaeRw+gpyOD2DHE7Pci90csxBJ08cIififwMAAP//AwCqPcFf
+NwQAAA==</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH9SURBVHhe7d1JCgMxDEVBHd03d7oX
+AiVRQ08rUwUPD5f4sZlnAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhxdgTdWDoA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQGUsHAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAbvkbSz8aRTeWDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTtWHo3
+jG4sHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgOx9K7fwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAIAU3Sh6Le33MYYkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
+SZIkSZIkSZIkSZIkSZIkSZKkhbsi6iD6LkfSu38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACAFN0oejeMbiwdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqNqx9I6xdAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKD6WkCP8TOc/vANAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAArCty4PztEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjZ
+nB/wXmaupY9bKAAAAABJRU5ErkJggg==</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH9SURBVHhe7d1JCgMxDEVBHd03d7oX
+AiVRQ08rUwUPD5f4sZlnAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhxdgTdWDoA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQGUsHAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAbvkbSz8aRTeWDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTtWHo3
+jG4sHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgOx9K7fwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAIAU3Sh6Le33MYYkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
+SZIkSZIkSZIkSZIkSZIkSZKkhbsi6iD6LkfSu38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACAFN0oejeMbiwdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqNqx9I6xdAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKD6WkCP8TOc/vANAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAArCty4PztEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjZ
+nB/wXmaupY9bKAAAAABJRU5ErkJggg==</item>
+		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAH0sAAAAMCAYAAAAXHXAzAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH1SURBVHhe7d1BCsNADARBPX1/vk4O
+AoFnwfExVEGD0CemPvbTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFo9HUE3lg4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMxtIBAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACAV25j6adRdGPpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBTH0tMw
+urF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDqOpac/AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAQKs0ij5rfa+1JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS
+JEmSJEmSJEmSJEmSJEmSJP1pv6g5iP7VI+npDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAANAqjaKnYXRj6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAUx9ITY+kAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAdBtLPzGWDgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAEzG0gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAX9r4AjWeEBz4Z
+ahkAAAAASUVORK5CYII=</item>
+		<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAAD4AAAAlCAYAAAAa0FocAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGUSURBVGhD7ZiNjcMgDIWZi4E8D9Ow
+DMP4bEPA+bmWSEnlQD4pV7U6pX1+D3DscFJe4bPxCh+ThME7dI4vjyGVj4mhhacAVWwEEu8D
+lSIzT9RTQO8AY3lrRHiLJMSIQK9e5/IKWLhNx1kwr0MqQlh8uZAIq2LairrEcb0JNfRGtbng
+W6GoqMptxpbwyHG8PuYR2tpesCOc3Rbn2Nn/XD9PCp72jfoGodzY1ubGv1DizhHeu3QWOcJW
+y6IV1FbUf8gr/HoovrDeSS3RITw3FHmNlHXXtQ4fL5woQvVxqfvgYx4hvOyq1Vl1FbV8LLQm
+n1Kgq1D5cJ9NA6E5/P8bL/lO+dtFFpVPnG9uMyNEfYH6XanaB/caIwknuCk4TPmOoYTbFnOG
+01Hvc9s+XcJrz/tA1XIayW4+0cyN+4/laUwKoIwbW7jG5gQm9wgcyXtmbnT/zTjLkON3zdza
+s8aEM7eyxu2Nlws3zdwy7LxF4ey2OMfOXjdzq3C7bW9XLzHmH9b1rN9HO8P3y8FW1H/IK3w2
+JhWO+AfIQzP8vMClyAAAAABJRU5ErkJggg==</item>
+		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAGMAAAAtCAYAAAC6adWJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ7SURBVHhe7ZmBkYQgDACty4Koh2po
+xmL4JCCChyf4BjNndoafnx//ouwlBJy8IgaVIQiVIQiVIQiVMZTF23ny04TDeBf/uqIyBrJY
+4+0SfncGhMwW9GyojKdYrJ932aEyHsN5ozKEAJlh1poVURkP4Wy5XiAq4wEWO3uzb6UAlTEY
+FDGn8uS8zUqVIBl5Dz6nFvCXoHaWnq/+nGJknPXgb0Bmmar04G9ArgyWzNhKoXHY509Z/b6T
+a3FkynCGaZIQnBys1TBhljP3+uMIlAEPwb1eUBkc0CR0xhEnw5kBa4XDMshVojI644iSUWyG
+KscFt4DfVgqCdZ0xOy7EESPjrAe/h7iw4iRRCcE4HJl4LY7MBfylqAxBMMqAVDXv20X/hwYZ
+YdMS6nise011UGX00pYZcfJTpwPkZ0l1VEYvUUZc/VMGZCMawLZzO7yDbMnNJL58zpeNXPX6
+OOqc32+N6vVx1Lk/ztGg/6OfTYQbw3s4zwoErtfM6KJDBuBMMNl0XKEyeumTAeDm7EuGZqiM
+Xjpl6ARz0l2m2rJCuUKTjHRuxGyCOjbqLniPt7c4rSX3CqHh+XyefN9W3kP3msEG7GXWU1qa
+LK5Zwj3T2oDQ/onnyP7wnb5zRbz8lYEcGTmMb/pQdP7ZOFHs7zUOpZdrsEAZcIOMr0P3WTdM
+Rm07kFUDRJiMrZ6yTRDtlbZv6RAZB5m+3zyLLFNhgeWp5UhqSGjwNgv0Batukj+3CTLXDMoQ
+PhkJzBLmDvH4nf7n+Z7YBZx7kigGs3DM8PQYu/UB4+8fUYyMUJpi6eAUQRIgRtP52nXKUoij
+LIe1jBFapt6JyhCEyhCEyhCD93/zBS2o7XBacAAAAABJRU5ErkJggg==</item>
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAH0AAAAAMCAYAAADv/YvEAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHrSURBVHhe7d1RCsQgDEXRLN2dOy1M
+ggyW8bfhHLhUtHt4cZmn3cYYkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ
+kiRJkiRJkiRJkpoWOWz+z+l/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHsZQAcA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACKAXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACgGEAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASg2g39+n8h0AAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADoLdZh8xw8X0vrGQAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAOgpfofNc/h8dw8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0
+Frth89M7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoJftAPqOAXQAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADozwA6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+UAygAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF9zfgBt13X5tVIJ1gAAAABJRU5E
+rkJggg==</item>
+	</binaryContent>
+</worksheet>

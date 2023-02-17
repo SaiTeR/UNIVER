@@ -1,0 +1,179 @@
+-- E:\seluyanov\cdsddl.con
+--
+-- Generated for Oracle 10g on Thu Dec 15  01:45:13 2022 by Server Generator 10.1.2.6.18
+  
+PROMPT Creating Primary Key on 'бнгбпюр'
+ALTER TABLE бнгбпюр
+ ADD (CONSTRAINT бгп_PK PRIMARY KEY 
+  (бгп_ID))
+/
+
+PROMPT Creating Primary Key on 'рсп'
+ALTER TABLE рсп
+ ADD (CONSTRAINT рсп_PK PRIMARY KEY 
+  (рсп_ID))
+/
+
+PROMPT Creating Primary Key on 'осребйю'
+ALTER TABLE осребйю
+ ADD (CONSTRAINT оср_PK PRIMARY KEY 
+  (оср_ID))
+/
+
+PROMPT Creating Primary Key on 'йкхемр'
+ALTER TABLE йкхемр
+ ADD (CONSTRAINT йк_PK PRIMARY KEY 
+  (йк_ID))
+/
+
+PROMPT Creating Primary Key on 'охрюмхе'
+ALTER TABLE охрюмхе
+ ADD (CONSTRAINT охр_PK PRIMARY KEY 
+  (охр_ID))
+/
+
+PROMPT Creating Primary Key on 'опндюфю'
+ALTER TABLE опндюфю
+ ADD (CONSTRAINT опд_PK PRIMARY KEY 
+  (опд_ID))
+/
+
+PROMPT Creating Primary Key on 'нрекэ'
+ALTER TABLE нрекэ
+ ADD (CONSTRAINT нрк_PK PRIMARY KEY 
+  (нрк_ID))
+/
+
+PROMPT Creating Primary Key on 'осребйю_рсп'
+ALTER TABLE осребйю_рсп
+ ADD (CONSTRAINT оср_рсп_PK PRIMARY KEY 
+  (оср_оср_ID
+  ,рсп_рсп_ID))
+/
+
+PROMPT Creating Primary Key on 'ярпюмю'
+ALTER TABLE ярпюмю
+ ADD (CONSTRAINT ярп_PK PRIMARY KEY 
+  (ярп_ID))
+/
+
+PROMPT Creating Primary Key on 'янрпсдмхй'
+ALTER TABLE янрпсдмхй
+ ADD (CONSTRAINT яр_PK PRIMARY KEY 
+  (яр_ID))
+/
+
+PROMPT Creating Primary Key on 'бхд_рспю'
+ALTER TABLE бхд_рспю
+ ADD (CONSTRAINT бр_PK PRIMARY KEY 
+  (бр_ID))
+/
+
+
+PROMPT Creating Unique Key on 'йкхемр'
+ALTER TABLE йкхемр
+ ADD (CONSTRAINT йк_йк_UK_UK UNIQUE 
+  (оюяонпр))
+/
+
+            
+
+PROMPT Creating Foreign Key on 'бнгбпюр'
+ALTER TABLE бнгбпюр ADD (CONSTRAINT
+ бгп_оср_FK FOREIGN KEY 
+  (оср_оср_ID) REFERENCES осребйю
+  (оср_ID))
+/
+
+PROMPT Creating Foreign Key on 'бнгбпюр'
+ALTER TABLE бнгбпюр ADD (CONSTRAINT
+ бгп_яр_FK FOREIGN KEY 
+  (яр_яр_ID) REFERENCES янрпсдмхй
+  (яр_ID))
+/
+
+PROMPT Creating Foreign Key on 'бнгбпюр'
+ALTER TABLE бнгбпюр ADD (CONSTRAINT
+ бгп_йк_FK FOREIGN KEY 
+  (йк_йк_ID) REFERENCES йкхемр
+  (йк_ID))
+/
+
+PROMPT Creating Foreign Key on 'рсп'
+ALTER TABLE рсп ADD (CONSTRAINT
+ рсп_охр_FK FOREIGN KEY 
+  (охр_охр_ID) REFERENCES охрюмхе
+  (охр_ID))
+/
+
+PROMPT Creating Foreign Key on 'рсп'
+ALTER TABLE рсп ADD (CONSTRAINT
+ рсп_ярп_FK FOREIGN KEY 
+  (ярп_ярп_ID) REFERENCES ярпюмю
+  (ярп_ID))
+/
+
+PROMPT Creating Foreign Key on 'рсп'
+ALTER TABLE рсп ADD (CONSTRAINT
+ рсп_бр_FK FOREIGN KEY 
+  (бр_бр_ID) REFERENCES бхд_рспю
+  (бр_ID))
+/
+
+PROMPT Creating Foreign Key on 'рсп'
+ALTER TABLE рсп ADD (CONSTRAINT
+ рсп_нрк_FK FOREIGN KEY 
+  (нрк_нрк_ID) REFERENCES нрекэ
+  (нрк_ID))
+/
+
+PROMPT Creating Foreign Key on 'опндюфю'
+ALTER TABLE опндюфю ADD (CONSTRAINT
+ опд_йк_FK FOREIGN KEY 
+  (йк_йк_ID) REFERENCES йкхемр
+  (йк_ID))
+/
+
+PROMPT Creating Foreign Key on 'опндюфю'
+ALTER TABLE опндюфю ADD (CONSTRAINT
+ опд_яр_FK FOREIGN KEY 
+  (яр_яр_ID) REFERENCES янрпсдмхй
+  (яр_ID))
+/
+
+PROMPT Creating Foreign Key on 'опндюфю'
+ALTER TABLE опндюфю ADD (CONSTRAINT
+ опд_оср_FK FOREIGN KEY 
+  (оср_оср_ID) REFERENCES осребйю
+  (оср_ID))
+/
+
+PROMPT Creating Foreign Key on 'нрекэ'
+ALTER TABLE нрекэ ADD (CONSTRAINT
+ нрк_ярп_FK FOREIGN KEY 
+  (ярп_ярп_ID) REFERENCES ярпюмю
+  (ярп_ID))
+/
+
+PROMPT Creating Foreign Key on 'нрекэ'
+ALTER TABLE нрекэ ADD (CONSTRAINT
+ нрк_охр_FK FOREIGN KEY 
+  (охр_охр_ID) REFERENCES охрюмхе
+  (охр_ID))
+/
+
+PROMPT Creating Foreign Key on 'осребйю_рсп'
+ALTER TABLE осребйю_рсп ADD (CONSTRAINT
+ оср_рсп_оср_FK FOREIGN KEY 
+  (оср_оср_ID) REFERENCES осребйю
+  (оср_ID))
+/
+
+PROMPT Creating Foreign Key on 'осребйю_рсп'
+ALTER TABLE осребйю_рсп ADD (CONSTRAINT
+ оср_рсп_рсп_FK FOREIGN KEY 
+  (рсп_рсп_ID) REFERENCES рсп
+  (рсп_ID))
+/
+
+

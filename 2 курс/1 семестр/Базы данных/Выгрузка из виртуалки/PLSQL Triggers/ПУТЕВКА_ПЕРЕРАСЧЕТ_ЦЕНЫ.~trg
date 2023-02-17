@@ -1,0 +1,29 @@
+CREATE OR REPLACE TRIGGER осребйю_оепепюявер_жемш
+AFTER INSERT OR UPDATE OR DELETE ON осребйю_рсп 
+  
+DECLARE
+  CURSOR TMP_осребйх IS
+      SELECT DISTINCT оср_оср_ID FROM TEMP_осребйю_рсп;
+      
+  SUMM_рсп NUMBER(10,2);
+  
+BEGIN
+  SUMM_рсп := 0;
+  FOR CUR_оср IN TMP_осребйх
+  LOOP
+      SELECT SUM(рсп.ярнхлнярэ) INTO SUMM_рсп FROM осребйю_рсп, рсп
+      WHERE 
+            осребйю_рсп.рсп_рсп_ID = рсп.рсп_ID AND
+            CUR_оср.оср_оср_ID = осребйю_рсп.оср_оср_ID;
+       
+      IF SUMM_рсп IS NULL
+      THEN
+         SUMM_рсп := 0;
+      END IF;
+      UPDATE осребйю SET жемю = SUMM_рсп 
+      WHERE осребйю.оср_ID = CUR_оср.оср_оср_ID;
+  END LOOP;
+  
+  DELETE TEMP_осребйю_рсп; 
+END осребйю_оепепюявер_жемш;
+/

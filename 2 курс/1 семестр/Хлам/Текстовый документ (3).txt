@@ -1,0 +1,177 @@
+////////////
+//  CODE  //
+//   BY   //      
+// SAITER //      
+////////////
+
+
+#include <iostream>
+//#include <string> //нельзя
+#include <ctime>
+using namespace std;
+
+
+class CStr
+{
+    
+private:
+    char* S;
+    
+    char* Rand_S(int len) //генерация строки заданной длины
+    {
+        srand(time(0));
+        char* s_rnd = new char[len + 1];
+        for (int i = 0; i < len; i++)
+            s_rnd[i] = rand() % 26 + 65;
+
+        s_rnd[len] = '\0';
+
+        return s_rnd;
+    }
+
+
+public:
+    char* getString() 
+    {
+        return this->S;
+    }
+
+    int getLenght()
+    {
+        return strlen(S);
+    }
+    
+    ///////////////////////////////////////////////////////////////////////////////
+
+    CStr() //конструктор по умолчанию, задает рандомную длину строки
+    {
+        srand(time(0));
+        this->S = Rand_S(rand() % 20 + 1);
+    }
+
+    CStr(char* inputS) //конструктор принимающий строку
+    {
+        this->S = new char[strlen(inputS) + 1];
+        strcpy(this->S, inputS);
+    }
+
+    CStr(int custLen) //конструктор строки с пользовательской длиной
+    {
+        this->S = Rand_S(custLen);
+    }
+
+    CStr(CStr& other) //конструктор копирования
+    {
+        this->S = new char[strlen(other.S) + 1]; //!!!!чето вообще не понятно по объему выделяемой памяти
+        strcpy(S, other.S);
+    }
+
+    ///////////////////////////////////////////////////////////////////////////////
+
+    CStr& operator = (CStr& other)
+    {
+        delete this->S;
+        this->S = new char[strlen(other.S) + 1];
+
+        strcpy(this->S, other.S);
+
+        return *this;
+    }
+
+    CStr& operator = (char* stroka)
+    {
+        delete this->S;
+        this->S = new char[strlen(stroka) + 1];
+        
+        strcpy(this->S, stroka);
+
+        return *this;
+    }
+
+    bool operator > (CStr& other)
+    {
+        if (strcmp(this->S, other.S) == 1)
+            return true;
+        else
+            return false;
+    }
+
+
+    bool operator == (CStr& other)
+    {
+        if (strcmp(this->S, other.S) == 0)
+            return true;
+        else
+            return false;
+    }
+
+    ///////////////////////////////////////////////////////////////////////////////
+
+    friend ostream& operator << (ostream& stream, CStr& other);
+    
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ~CStr() //деструктор
+    {
+        cout << "[Деструктор отработал для: " << this << "]" << endl;
+        delete this->S;
+    }
+};
+
+
+
+ostream& operator << (ostream& stream, CStr& other)
+{
+    int l = other.getLenght();
+
+    for (int i = 0; i < l; i++)
+        stream << other.S[i];
+
+    return stream;
+}
+
+
+int main()
+{
+    setlocale(LC_ALL, "RUS");
+
+
+    //cout << "Демонстрация работы перегрузок конструктора" << endl << endl;
+
+    ////Перегрузки конструкторов
+    //CStr A;
+    //cout << "A(по умолчанию): \t\t" << A.getString() << " " << A.getLenght() << endl;
+
+    //CStr B((char*)"zxc_bebra");
+    //cout << "B(с параметром строка): \t" << B.getString() << " " << B.getLenght() << endl;
+
+    //CStr C(9);
+    //cout << "C(с параметром длина строки): \t" << C.getString() << " " << C.getLenght() << endl;
+
+    //CStr D(A);
+    //cout << "D(копия А): \t\t\t" << D.getString() << " " << D.getLenght() << endl;
+
+    ////Работа операторов
+    //CStr F(5);
+    //F = B;
+    //cout << "F(F = B): \t\t\t" << F.getString() << " " << F.getLenght() << endl;
+
+    //CStr G;
+    //G = (char*)"amogus";
+    //cout << "G(присваивание строки): \t" << G.getString() << " " << G.getLenght() << endl;
+
+    //cout << "Сравнение(>): \t\t\t" << (A > B) << endl;
+    //cout << "Сравнение(==): \t\t\t" << (A == D) << endl;
+
+    //cout << "Friend-функция(для B): \t\t" << B << endl;
+
+
+
+    
+
+	
+
+    cout << endl;
+	return 0;
+}
+

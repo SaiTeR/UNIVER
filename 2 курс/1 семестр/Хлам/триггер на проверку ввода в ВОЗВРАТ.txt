@@ -1,0 +1,24 @@
+select t.*, t.rowid from возврат t
+
+CREATE OR REPLACE TRIGGER ВОЗВРАТЫ_ПРОВЕРКА_ВВОДА
+AFTER
+     INSERT OF КЛ_КЛ_ID, ПУТ_ПУТ_ID, СТ_СТ_ID, КОЛ_ВЗРОСЛЫХ, КОЛ_ДЕТЕЙ ON ВОЗВРАТ
+     
+DECLARE
+       CURSOR ПРД IS
+       SELECT DISTINCT КЛ_КЛ_ID, ПУТ_ПУТ_ID, СТ_СТ_ID, КОЛ_ВЗРОСЛЫХ, КОЛ_ДЕТЕЙ FROM ПРОДАЖА
+
+
+BEGIN
+     FOR CUR_ПРД IN ПРД
+     LOOP
+         IF (CUR_ПРД.КЛ_КЛ_ID == :new.КЛ_КЛ_ID AND CUR_ПРД.ПУТ_ПУТ_ID == :new.ПУТ_ПУТ_ID AND CUR_ПРД.СТ_СТ_ID == :new.СТ_СТ_ID)
+         THEN
+             IF (CUR_ПРД.КОЛ_ВЗРОСЛЫХ <= :new.КОЛ_ВЗРОСЛЫХ AND CUR_ПРД.КОЛ_ДЕТЕЙ <= :new.КОЛ_ДЕТЕЙ)
+             THEN
+                 RAISE_APPLICATION_ERROR(-20000, 'НАРУШЕНИЕ ВВОДА В ВОЗВРАТ');
+             END IF;
+         END IF;
+      END LOOP;
+
+END;

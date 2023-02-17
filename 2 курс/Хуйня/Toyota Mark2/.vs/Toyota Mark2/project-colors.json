@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "601c52db-8f7c-48c1-9b37-1c88d5b20e2d": {
+      "ProjectGuid": "601c52db-8f7c-48c1-9b37-1c88d5b20e2d",
+      "DisplayName": "Toyota Mark2",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

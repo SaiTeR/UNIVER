@@ -1,0 +1,24 @@
+select t.*, t.rowid from âîçâðàò t
+
+CREATE OR REPLACE TRIGGER ÂÎÇÂÐÀÒÛ_ÏÐÎÂÅÐÊÀ_ÂÂÎÄÀ
+AFTER
+     INSERT OF ÊË_ÊË_ID, ÏÓÒ_ÏÓÒ_ID, ÑÒ_ÑÒ_ID, ÊÎË_ÂÇÐÎÑËÛÕ, ÊÎË_ÄÅÒÅÉ ON ÂÎÇÂÐÀÒ
+     
+DECLARE
+       CURSOR ÏÐÄ IS
+       SELECT DISTINCT ÊË_ÊË_ID, ÏÓÒ_ÏÓÒ_ID, ÑÒ_ÑÒ_ID, ÊÎË_ÂÇÐÎÑËÛÕ, ÊÎË_ÄÅÒÅÉ FROM ÏÐÎÄÀÆÀ
+
+
+BEGIN
+     FOR CUR_ÏÐÄ IN ÏÐÄ
+     LOOP
+         IF (CUR_ÏÐÄ.ÊË_ÊË_ID == :new.ÊË_ÊË_ID AND CUR_ÏÐÄ.ÏÓÒ_ÏÓÒ_ID == :new.ÏÓÒ_ÏÓÒ_ID AND CUR_ÏÐÄ.ÑÒ_ÑÒ_ID == :new.ÑÒ_ÑÒ_ID)
+         THEN
+             IF (CUR_ÏÐÄ.ÊÎË_ÂÇÐÎÑËÛÕ <= :new.ÊÎË_ÂÇÐÎÑËÛÕ AND CUR_ÏÐÄ.ÊÎË_ÄÅÒÅÉ <= :new.ÊÎË_ÄÅÒÅÉ)
+             THEN
+                 RAISE_APPLICATION_ERROR(-20000, 'ÍÀÐÓØÅÍÈÅ ÂÂÎÄÀ Â ÂÎÇÂÐÀÒ');
+             END IF;
+         END IF;
+      END LOOP;
+END;
+

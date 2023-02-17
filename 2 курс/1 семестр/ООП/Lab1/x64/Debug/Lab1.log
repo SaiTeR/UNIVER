@@ -1,0 +1,4 @@
+﻿  Lab1.cpp
+C:\Users\BRDen\OneDrive\Универ\2 курс\1 семестр\ООП\Lab1\Lab1.cpp(36,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\BRDen\OneDrive\Универ\2 курс\1 семестр\ООП\Lab1\Lab1.cpp(299,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab1.vcxproj -> C:\Users\BRDen\OneDrive\Универ\2 курс\1 семестр\ООП\Lab1\x64\Debug\Lab1.exe

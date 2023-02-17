@@ -1,0 +1,9 @@
+@dp.message_handler(commands=['delete'])
+async def send_welcome(message: types.Message):
+    #global df_marks, writer
+    #pul = random.randint(40, 100)
+    user_id = message.from_user.id
+    Id = (f'{user_id}')
+    
+    cursor.execute("DELETE FROM UserData WHERE User = (?)", (Id))
+    conn.commit()

@@ -1,0 +1,118 @@
+-- E:\seluyanov\cdsddl.tab
+--
+-- Generated for Oracle 10g on Thu Dec 15  01:45:13 2022 by Server Generator 10.1.2.6.18
+ 
+
+
+PROMPT Creating Table 'бнгбпюр'
+CREATE TABLE бнгбпюр
+ (бгп_ID NUMBER(10,0) NOT NULL
+ ,йк_йк_ID NUMBER(10,0) NOT NULL
+ ,оср_оср_ID NUMBER(10,0) NOT NULL
+ ,яр_яр_ID NUMBER(10,0) NOT NULL
+ ,йнк_бгпнякшу NUMBER(3)
+ ,йнк_дереи NUMBER(3)
+ ,дюрю_бнгбпюрю VARCHAR2(8) NOT NULL
+ ,жемю NUMBER(15,2) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'TEMP_осребйю_рсп'
+CREATE TABLE TEMP_осребйю_рсп
+ (оср_оср_ID NUMBER(6) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'рсп'
+CREATE TABLE рсп
+ (рсп_ID NUMBER(10,0) NOT NULL
+ ,бр_бр_ID NUMBER(10,0) NOT NULL
+ ,нрк_нрк_ID NUMBER(10,0) NOT NULL
+ ,охр_охр_ID NUMBER(10,0) NOT NULL
+ ,ярп_ярп_ID NUMBER(10,0) NOT NULL
+ ,мюгбюмхе VARCHAR2(30) NOT NULL
+ ,люпьпср VARCHAR2(50) NOT NULL
+ ,опнегд_бйкчвем VARCHAR2(4) NOT NULL
+ ,опнднкфхрекэмнярэ VARCHAR2(10) NOT NULL
+ ,ярнхлнярэ NUMBER(10,2) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'осребйю'
+CREATE TABLE осребйю
+ (оср_ID NUMBER(10,0) NOT NULL
+ ,ноепюрнп VARCHAR2(30) NOT NULL
+ ,дюрю_нропюбкемхъ VARCHAR2(8) NOT NULL
+ ,жемю NUMBER(10,2) NOT NULL
+ ,йнк_осребнй NUMBER(3) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'йкхемр'
+CREATE TABLE йкхемр
+ (йк_ID NUMBER(10,0) NOT NULL
+ ,тхн VARCHAR2(50) NOT NULL
+ ,оюяонпр NUMBER(10) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'охрюмхе'
+CREATE TABLE охрюмхе
+ (охр_ID NUMBER(10,0) NOT NULL
+ ,мюхлемнбюмхе VARCHAR2(20) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'опндюфю'
+CREATE TABLE опндюфю
+ (опд_ID NUMBER(10,0) NOT NULL
+ ,йк_йк_ID NUMBER(10,0) NOT NULL
+ ,оср_оср_ID NUMBER(10,0) NOT NULL
+ ,яр_яр_ID NUMBER(10,0) NOT NULL
+ ,йнк_бгпнякшу NUMBER(3)
+ ,йнк_дереи NUMBER(3)
+ ,дюрю_опндюфх VARCHAR2(8) NOT NULL
+ ,жемю NUMBER(15,2) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'нрекэ'
+CREATE TABLE нрекэ
+ (нрк_ID NUMBER(10,0) NOT NULL
+ ,охр_охр_ID NUMBER(10,0) NOT NULL
+ ,ярп_ярп_ID NUMBER(10,0) NOT NULL
+ ,мюгбюмхе VARCHAR2(40) NOT NULL
+ ,пецхнм VARCHAR2(40) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'осребйю_рсп'
+CREATE TABLE осребйю_рсп
+ (оср_оср_ID NUMBER(10,0) NOT NULL
+ ,рсп_рсп_ID NUMBER(10,0) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'ярпюмю'
+CREATE TABLE ярпюмю
+ (ярп_ID NUMBER(10,0) NOT NULL
+ ,мюгбюмхе VARCHAR2(20) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'янрпсдмхй'
+CREATE TABLE янрпсдмхй
+ (яр_ID NUMBER(10,0) NOT NULL
+ ,тхн VARCHAR2(50) NOT NULL
+ ,днкфмнярэ VARCHAR2(20) NOT NULL
+ ,рекетнм NUMBER(20) NOT NULL
+ )
+/
+
+PROMPT Creating Table 'бхд_рспю'
+CREATE TABLE бхд_рспю
+ (бр_ID NUMBER(10,0) NOT NULL
+ ,бхд VARCHAR2(15) NOT NULL
+ )
+/
+

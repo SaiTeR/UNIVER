@@ -1,0 +1,33 @@
+Документация для рисования с помощью Windows Forms в PascalABC by SaiTeR 23.11.2021
+
+Для рисования на форме в графической среде разработки PascalABC вам нужно 
+в классе формы создать объект, имеющий событие "Paint"
+Такое событие имеет лишь один вид объектов - это "PictureBox"
+
+var g:= e.Graphics; // используем свойство Graphics для e (хз что это) и присваеваем его переменной для упрощения кода
+
+Примеры рисования:
+g.DrawEllipse(new System.Drawing.Pen(Color.Green, 10.0), 10, 10, 100, 100); // Рисует контур эллипса
+g.FillEllipse(System.Drawing.Brushes.Red, 10, 10, 100, 100); // Заполняет эллипс цветом
+
+g.DrawRectangle(new System.Drawing.Pen(Color.Red, 10.0), 150, 10, 150, 100); // рисует прямоугольник
+var zxc:= 10; // полосы внутри прямоугольника 
+    while zxc <> 120 do
+    begin
+      g.DrawLine(new System.Drawing.Pen(Color.Green, 3.0), 150, zxc, 300, zxc);
+      zxc += 10;
+    end;
+    
+    zxc:= 150; // 
+    while zxc <> 300 do
+    begin
+      g.DrawLine(new System.Drawing.Pen(Color.Green, 3.0), zxc, 110, zxc, 10);
+      zxc += 10;
+    end;
+
+g.DrawLine(new System.Drawing.Pen(Color.Black, 10.0), 0, 150, DrawingBox.Width, 150); //рисвование прямой
+    
+g.DrawString('рисунок',  new System.Drawing.Font('Courier', 35),  System.Drawing.Brushes.Blue, 100, 175); // рисование надписи
+
+//g.FillRectangle(new System.Drawing.Brush., 150, 10, 150, 100);									// просто что-то
+//g.DrawString('123456789',new System.Drawing.Font('Arial',16),new System.Drawing.SolidBrush(system.Drawing.Color.Black),100,50)	// нужное

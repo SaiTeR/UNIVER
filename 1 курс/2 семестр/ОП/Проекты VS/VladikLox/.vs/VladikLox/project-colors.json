@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c9435dc4-f327-4d8a-a9b0-47ff3b6f9c5a": {
+      "ProjectGuid": "c9435dc4-f327-4d8a-a9b0-47ff3b6f9c5a",
+      "DisplayName": "VladikLox",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

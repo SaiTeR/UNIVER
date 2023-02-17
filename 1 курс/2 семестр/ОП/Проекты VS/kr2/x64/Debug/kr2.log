@@ -1,0 +1,9 @@
+﻿  kr2.cpp
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(68,63): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(76,34): warning C4244: -=: преобразование "double" в "int", возможна потеря данных
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(129,67): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(133,67): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(139,32): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(141,32): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\kr2.cpp(217,15): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  kr2.vcxproj -> C:\Users\BRDen\OneDrive\Учеба\2 семестр\ОП\Проекты VS\kr2\x64\Debug\kr2.exe
